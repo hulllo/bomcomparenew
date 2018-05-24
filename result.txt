@@ -1,0 +1,120 @@
+数量与位号个数不一致： 
+['1', 'BAB1M3000DCX', 'BAB1M3000DC1', '', 'TRIPOD', 'Main PCB,WIFI12,D Version,3+4+3 Layers,76.57×61.05×0.8 mm,BAB1M3000CC1,TRIPOD', '1', '', 'PCB', '', ''] 
+ 数量是：1
+ 位号个数是:0
+
+数量与位号个数不一致： 
+['142', 'CPE0000004CX', 'CPE0000004C0', '', '', 'PCBA标签纸,PCBA Label,,20×11mm,,,,,, ', '1', '', 'Label', '', ''] 
+ 数量是：1
+ 位号个数是:0
+
+位号重复项：{'J3402': 2}
+
+wrong:
+ SCH is :['46', 'R4207', 'AAA0000JA8CX', '0', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
+ BOM is : 0201,3.6nh
+
+wrong:
+ SCH is :['71', 'R4406', 'AAA0000JA8CX', '0', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
+ BOM is : 0201,4.3nh
+
+wrong:
+ SCH is :['121', 'R4307', 'AAA0000JC6CX', '0R', '电阻,Resistor,0 ohm,±5 %,1/10 W,0603,N/A', '电阻', '0603', '0R']
+ BOM is : None,普通电阻resistor0±1%1/10w06031.75×0.95×0.5mmrs-03000ftfenghua
+
+wrong:
+ SCH is :['216', 'R4304', 'AAC0104FB3CX', '100K_NTC', '热敏电阻,NTC Chip Thermistor,100K ohm,±1 %,35 mW,0402', '热敏电阻', '0402', '100K_NTC']
+ BOM is : 0402,100k
+
+wrong:
+ SCH is :['254', 'C4427', 'ABA24FBJACCX', '2.4pF', '电容,Capacitor,2.4 pF,±0.1 pF,50 V,C0G,0201', '电容', '0201', '2.4pF']
+ BOM is : ,nc
+
+wrong:
+ SCH is :['274', 'C4214', 'ABA56FBJACCX', '39pF', '普通电容,Capacitor,5.6 pF,±0.1 pF,50 V,C0G,0201', '普通电容', '0201', '39pF']
+ BOM is : 0201,33pf
+
+wrong:
+ SCH is :['528', 'C4244', 'ABA120JJACCX', '68pF', '电容,Capacitor,12 pF,±5 %,50 V,C0G,0201', '电容', '0201', '68pF']
+ BOM is : 0201,33pf
+
+wrong:
+ SCH is :['616', 'C4341', 'ABA270GGACCX', '3.0 nH', '普通电容,Capacitor,27 pF,±2 %,25 V,C0G,0201', '普通电容', '0201', '3.0nH']
+ BOM is : 0201,3nh
+
+wrong:
+ SCH is :['770', 'L4243', 'ACA18THAC0CX', 'NC', '电感,Inductor,18 nH,±3 %,0201,Film', '电感', '0201', 'NC']
+ BOM is : 0201,12nh
+
+wrong:
+ SCH is :['830', 'L4215', 'ACA82HHAC0CX', '7.1nH', '电感,Inductor,8.2 nH,±3 %,0201,Film', '电感', '0201', '7.1nH']
+ BOM is : 0201,6.8nh
+
+wrong:
+ SCH is :['850', 'FL4406', 'AEA0000273CX', '', '滤波器,Saw Filter,FOR GSM900/BAND8 Rx,942.5 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
+ BOM is : AEA0000456CX,滤波器,Saw Filter,RxD SAW,GSM900/EGSM Rx,UMTS B8,942.5 MHz,1.1×0.9×0.5 mm,5 PINs,N/A,SFH942AA002,WISOL,
+
+wrong:
+ SCH is :['853', 'FL4404', 'AEA0000277CX', '', '滤波器,SAW Single Filter,for Band7 / Unbalanced,2655 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
+ BOM is : AEA0000419CX,滤波器,Saw Filter,LTE Band 7 Rx,2655 MHz,1.1×0.9×0.5 mm,5 PINs,N/A,SFHG56BA002,WISOL
+
+wrong:
+ SCH is :['854', 'FL4206', 'AEA0000370CX', '', '滤波器,Saw Filter,Low Pass,High frequency,1681 MHz,1.6×0.8×0.65 mm,3 PINs', '滤波器', 'None', '']
+ BOM is : AED0000190CX,低通滤波器,Low Pass Filter,LTCC Multi Layer Ceramic,0603,673-2690 MHz,1.6×0.8×0.65 mm,3 PINs,N/A,RFLPF1608060F18Q1C,WALSIN
+
+wrong:
+ SCH is :['855', 'FL4207', 'AEA0000370CX', '', '滤波器,Saw Filter,Low Pass,High frequency,1681 MHz,1.6×0.8×0.65 mm,3 PINs', '滤波器', 'None', '']
+ BOM is : AED0000190CX,低通滤波器,Low Pass Filter,LTCC Multi Layer Ceramic,0603,673-2690 MHz,1.6×0.8×0.65 mm,3 PINs,N/A,RFLPF1608060F18Q1C,WALSIN
+
+wrong:
+ SCH is :['856', 'FL4408', 'AEA0000379CX', '', '滤波器,SAW Rx filter,WCDMA Band I/Band IV/Band X,2140 MHz,1.1×0.9×0.45 mm,5 PINs', '滤波器', 'None', '']
+ BOM is : AEA0000394CX,滤波器,Saw Filter,UMTS Band 1,2110-2170 MHz,1.1×0.9×0.5 mm,5 PINs,N/A,SFHG40AA002,WISOL
+
+wrong:
+ SCH is :['860', 'FL4402', 'AEA0000417CX', '', '滤波器,Saw Filter,LTE Band40 Rx,2350 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
+ BOM is : ,
+
+wrong:
+ SCH is :['863', 'FL4210', 'AEB0000292CX', '', '双工器,SAW Duplexer,B3 Unbalanced,1747.5 MHz/1842.5 MHz,1.8×1.4×0.6 mm,8 PINs', '双工器', 'None', '']
+ BOM is : AEB0000413CX,双工器,SAW Duplexer,LTE Band3,1747.5 MHz/1842.5 MHz,1.8×1.4×0.58 mm,8 PINs,N/A,SFXG47AYM02,WISOL
+
+wrong:
+ SCH is :['864', 'FL4209', 'AEB0000293CX', '', '双工器,SAW Duplexer,B1 Unbalanced,1950 MHz/2140 MHz,1.8×1.4×0.6 mm,8 PINs', '双工器', 'None', '']
+ BOM is : AEB0000429CX,SAW Duplexer,LTE Band 1,1950 MHz/2140 MHz,1.8×1.4×0.65 mm,8 PINs,SFXG50FY902,WISOL
+
+wrong:
+ SCH is :['865', 'FL4205', 'AEB0000297CX', '', '双工器,SAW Duplexer,Band8/Unbalanced,897.5 MHz/942.5 MHz,1.8×1.4×0.6 mm,8 PINs', '双工器', 'None', '']
+ BOM is : AEB0000346CX,双工器,SAW Duplexer,LTE Band 8,897.5/942.5 MHz,1.8×1.4×0.58 mm,8 PINs,N/A,SFX897BYF02,WISOL
+
+wrong:
+ SCH is :['866', 'FL4202', 'AEB0000300CX', '', '双工器,SAW Duplexer,Band7/Unbalanced/LR,2535 MHz/2655 MHz,1.8×1.4×0.6 mm,8 PINs', '双工器', 'None', '']
+ BOM is : AEB0000408CX,双工器,SAW Duplexer,LTE B7,2535 MHz/2655 MHz,1.8×1.4×0.57 mm,8 PINs,N/A,SD18-2535R8UUC1,KYOCERA
+
+wrong:
+ SCH is :['869', 'FL4201', 'AED0000085CX', '', '低通滤波器,Low pass filter,N/A,698-960 MHz,1.6×0.8×0.7 mm,6 PINs,N/A', '低通滤波器', 'None', '']
+ BOM is : AED0000142CX,低通滤波器,Low Pass Filter,Multilayer,698-960 MHz,1.6×0.8×0.7 mm,6 PINs,N/A,RFLPF1608060Y18Q1C,WALSIN
+
+wrong:
+ SCH is :['870', 'FL4208', 'AED0000127CX', '', '分频器,Diplexer,Multilayer,699-960 MHz/1710-2690 MHz,2.5×2×1.0 mm,8 PINs,N/A', '分频器', 'None', '']
+ BOM is : AED0000279CX,Diplexer,Multilayer,698-960 MHz/1710-2690 MHz,2.5×2×1 mm,8 PINs,DPX252690DT-5031A1,TDK
+
+wrong:
+ SCH is :['871', 'FL4405', 'AED0000127CX', '', '分频器,Diplexer,Multilayer,699-960 MHz/1710-2690 MHz,2.5×2×1.0 mm,8 PINs,N/A', '分频器', 'None', '']
+ BOM is : AED0000279CX,Diplexer,Multilayer,698-960 MHz/1710-2690 MHz,2.5×2×1 mm,8 PINs,DPX252690DT-5031A1,TDK
+
+wrong:
+ SCH is :['872', 'FL4203', 'AED0000129CX', '', '巴伦,Balun,Multilayer,673-2700 MHz,1.6×0.8×0.6 mm,6 PINs,N/A', '巴伦', 'None', '']
+ BOM is : AED0000201CX,巴伦,BALUN,LTCC Multi Layer Chip Balun,673 ~ 2700 MHz,1.6 X 0.8X 0.6 mm,6 PINs,N/A,RFBLN1608070F48Q1C,WALSIN
+
+wrong:
+ SCH is :['928', 'U4101', 'AMR0000065CX', '', '无线收发芯片,Transceiver Chipset,106B WLPSP,3.83×3.83×0.55 mm,0.35 mm', '无线收发芯片', 'None', '']
+ BOM is : AMR0000089CX,无线收发芯片,Transceiver Chipset,106B WLPSP,3.83×3.83×0.55 mm,0.35 mm,N/A,WTR-3925-2-106BWLPSP-HR-03-1,QUALCOMM
+
+wrong:
+ SCH is :['929', 'U4102', 'AMR0000069CX', '', '无线收发芯片,Transceiver Chipset,60 WLNSP,3.22×3.22×0.57 mm,0.4 mm', '无线收发芯片', 'None', '']
+ BOM is : AMR0000084CX,无线收发芯片,Transceiver Chipset,60 WLNSP,3.22×3.22×0.57 mm,0.4 mm,N/A,WTR-4905-1-60WLNSP-TR-01-1,QUALCOMM
+
+wrong:
+ SCH is :['932', 'U4306', 'AMY0000685CX', '', '功率放大芯片,PA Power Management IC,1.7×1.57×0.55 mm,15B WLNSP,N/A', '功率放大芯片', 'None', '']
+ BOM is : ,
+

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<PartListerConfiguration version="2">
+  <Entry name="outputVersion" value="1"/>
+  <Entry name="outputFormat" value="EXCEL"/>
+  <Entry name="pagination" value="NO"/>
+  <Entry name="pagelength" value="65535"/>
+  <Entry name="delimiter" value=" "/>
+  <Entry name="delimiterbefore" value="NO"/>
+  <Entry name="delimiterafter" value="NO"/>
+  <Entry name="addTitleRow" value="YES"/>
+  <Entry name="ignoreColumnWidths" value="NO"/>
+  <Header>
+    <Line text="Part Lister output for $(NAME)"/>
+    <Line text="Generated on $(DATE)"/>
+  </Header>
+  <Columns>
+    <Column type="NUMBER" label="#" width="3"/>
+    <Column type="PROPERTY" property="Ref Designator" label="Ref Designator" width="15" key="PRIMARY" display="Compress"/>
+    <Column type="PROPERTY" property="Part Number" label="Part Number" width="13" sort="ASCENDING" key="SECONDARY" display="Compress"/>
+    <Column type="PROPERTY" property="Value1" label="value1" width="15" key="SECONDARY" display="Compress"/>
+    <Column type="PROPERTY" property="Description" label="Descpition" width="15" key="SECONDARY" display="Compress"/>
+  </Columns>
+</PartListerConfiguration>
