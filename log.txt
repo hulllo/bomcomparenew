@@ -1,260 +1,1910 @@
-WARNING:root:
-fiducial 本地数据库上未找到，在PLM上查找
-
-WARNING:root:网站连接失败
-WARNING:root:
-SIT001_96_PT 本地数据库上未找到，在PLM上查找
-
-WARNING:root:网站连接失败
-WARNING:root:数量与位号个数不一致： 
-['1', 'BAB1M3000DCX', 'BAB1M3000DC1', '', 'TRIPOD', 'Main PCB,WIFI12,D Version,3+4+3 Layers,76.57×61.05×0.8 mm,BAB1M3000CC1,TRIPOD', '1', '', 'PCB', '', ''] 
+2018-08-24 10:54:57,965 - readconfig.py[line:28] - INFO: 读取配置文件成功
+2018-08-24 10:54:57,987 - readconfig.py[line:29] - DEBUG: 读取的配置为：{'search_from_PLM': '1', 'save_to_db': '1', 'reflist': ['all']}
+2018-08-24 10:54:58,588 - readconfig.py[line:28] - INFO: 读取配置文件成功
+2018-08-24 10:54:58,588 - readconfig.py[line:29] - DEBUG: 读取的配置为：{'search_from_PLM': '1', 'save_to_db': '1', 'reflist': ['all']}
+2018-08-24 10:54:58,786 - dataformat.py[line:24] - INFO: AAA0000FB7CX 本地数据库获取成功
+2018-08-24 10:54:58,788 - dataformat.py[line:24] - INFO: AAA0000JA0CX 本地数据库获取成功
+2018-08-24 10:54:58,789 - dataformat.py[line:24] - INFO: AAA0000JA8CX 本地数据库获取成功
+2018-08-24 10:54:58,790 - dataformat.py[line:24] - INFO: AAA0000JC0CX 本地数据库获取成功
+2018-08-24 10:54:58,791 - dataformat.py[line:24] - INFO: AAA0000JC6CX 本地数据库获取成功
+2018-08-24 10:54:58,792 - dataformat.py[line:24] - INFO: AAA0000JD5CX 本地数据库获取成功
+2018-08-24 10:54:58,793 - dataformat.py[line:24] - INFO: AAA0101FA0CX 本地数据库获取成功
+2018-08-24 10:54:58,794 - dataformat.py[line:24] - INFO: AAA0102FA8CX 本地数据库获取成功
+2018-08-24 10:54:58,795 - dataformat.py[line:24] - INFO: AAA0102JA8CX 本地数据库获取成功
+2018-08-24 10:54:58,796 - dataformat.py[line:24] - INFO: AAA0103FA8CX 本地数据库获取成功
+2018-08-24 10:54:58,797 - dataformat.py[line:24] - INFO: AAA0103JA0CX 本地数据库获取成功
+2018-08-24 10:54:58,798 - dataformat.py[line:24] - INFO: AAA0103JA8CX 本地数据库获取成功
+2018-08-24 10:54:58,799 - dataformat.py[line:24] - INFO: AAA0104FA0CX 本地数据库获取成功
+2018-08-24 10:54:58,800 - dataformat.py[line:24] - INFO: AAA0104FA8CX 本地数据库获取成功
+2018-08-24 10:54:58,801 - dataformat.py[line:24] - INFO: AAA0105FA0CX 本地数据库获取成功
+2018-08-24 10:54:58,801 - dataformat.py[line:24] - INFO: AAA0153JA8CX 本地数据库获取成功
+2018-08-24 10:54:58,802 - dataformat.py[line:24] - INFO: AAA0201FA8CX 本地数据库获取成功
+2018-08-24 10:54:58,803 - dataformat.py[line:24] - INFO: AAA0201JA8CX 本地数据库获取成功
+2018-08-24 10:54:58,804 - dataformat.py[line:24] - INFO: AAA0203JA0CX 本地数据库获取成功
+2018-08-24 10:54:58,805 - dataformat.py[line:24] - INFO: AAA0204FA0CX 本地数据库获取成功
+2018-08-24 10:54:58,805 - dataformat.py[line:24] - INFO: AAA0222JA0CX 本地数据库获取成功
+2018-08-24 10:54:58,806 - dataformat.py[line:24] - INFO: AAA0222JA8CX 本地数据库获取成功
+2018-08-24 10:54:58,807 - dataformat.py[line:24] - INFO: AAA0241FA8CX 本地数据库获取成功
+2018-08-24 10:54:58,807 - dataformat.py[line:24] - INFO: AAA0301JA8CX 本地数据库获取成功
+2018-08-24 10:54:58,808 - dataformat.py[line:24] - INFO: AAA0304FA8CX 本地数据库获取成功
+2018-08-24 10:54:58,809 - dataformat.py[line:24] - INFO: AAA0500JA8CX 本地数据库获取成功
+2018-08-24 10:54:58,810 - dataformat.py[line:24] - INFO: AAA0682FA8CX 本地数据库获取成功
+2018-08-24 10:54:58,810 - dataformat.py[line:24] - INFO: AAA0683FA8CX 本地数据库获取成功
+2018-08-24 10:54:58,811 - dataformat.py[line:24] - INFO: AAA0914FA8CX 本地数据库获取成功
+2018-08-24 10:54:58,812 - dataformat.py[line:24] - INFO: AAC0104FB3CX 本地数据库获取成功
+2018-08-24 10:54:58,812 - dataformat.py[line:24] - INFO: ABA05FBGACCX 本地数据库获取成功
+2018-08-24 10:54:58,813 - dataformat.py[line:24] - INFO: ABA12FBGA0CX 本地数据库获取成功
+2018-08-24 10:54:58,814 - dataformat.py[line:24] - INFO: ABA18FAGACCX 本地数据库获取成功
+2018-08-24 10:54:58,815 - dataformat.py[line:24] - INFO: ABA22FBGACCX 本地数据库获取成功
+2018-08-24 10:54:58,816 - dataformat.py[line:24] - INFO: ABA24FBJACCX 本地数据库获取成功
+2018-08-24 10:54:58,816 - dataformat.py[line:24] - INFO: ABA27FBJACCX 本地数据库获取成功
+2018-08-24 10:54:58,817 - dataformat.py[line:24] - INFO: ABA33FCJA0CX 本地数据库获取成功
+2018-08-24 10:54:58,818 - dataformat.py[line:24] - INFO: ABA33FCJACCX 本地数据库获取成功
+2018-08-24 10:54:58,819 - dataformat.py[line:24] - INFO: ABA47FAJACCX 本地数据库获取成功
+2018-08-24 10:54:58,820 - dataformat.py[line:24] - INFO: ABA56FBJACCX 本地数据库获取成功
+2018-08-24 10:54:58,820 - dataformat.py[line:24] - INFO: ABA010AJACCX 本地数据库获取成功
+2018-08-24 10:54:58,821 - dataformat.py[line:24] - INFO: ABA030AJACCX 本地数据库获取成功
+2018-08-24 10:54:58,822 - dataformat.py[line:24] - INFO: ABA100JGACCX 本地数据库获取成功
+2018-08-24 10:54:58,824 - dataformat.py[line:24] - INFO: ABA101GJACCX 本地数据库获取成功
+2018-08-24 10:54:58,824 - dataformat.py[line:24] - INFO: ABA101JJACCX 本地数据库获取成功
+2018-08-24 10:54:58,825 - dataformat.py[line:24] - INFO: ABA101KEACCX 本地数据库获取成功
+2018-08-24 10:54:58,827 - dataformat.py[line:24] - INFO: ABA102JJAWCX 本地数据库获取成功
+2018-08-24 10:54:58,828 - dataformat.py[line:24] - INFO: ABA102KJAWCX 本地数据库获取成功
+2018-08-24 10:54:58,829 - dataformat.py[line:24] - INFO: ABA104KCAXCX 本地数据库获取成功
+2018-08-24 10:54:58,830 - dataformat.py[line:24] - INFO: ABA104KDA0CX 本地数据库获取成功
+2018-08-24 10:54:58,831 - dataformat.py[line:24] - INFO: ABA104KDAXCX 本地数据库获取成功
+2018-08-24 10:54:58,832 - dataformat.py[line:24] - INFO: ABA104MCA0CX 本地数据库获取成功
+2018-08-24 10:54:58,833 - dataformat.py[line:24] - INFO: ABA104MCAXCX 本地数据库获取成功
+2018-08-24 10:54:58,834 - dataformat.py[line:24] - INFO: ABA105MCA0CX 本地数据库获取成功
+2018-08-24 10:54:58,836 - dataformat.py[line:24] - INFO: ABA105MCAXCX 本地数据库获取成功
+2018-08-24 10:54:58,837 - dataformat.py[line:24] - INFO: ABA106KCC0CX 本地数据库获取成功
+2018-08-24 10:54:58,838 - dataformat.py[line:24] - INFO: ABA106MCB0CX 本地数据库获取成功
+2018-08-24 10:54:58,840 - dataformat.py[line:24] - INFO: ABA106MCBXCX 本地数据库获取成功
+2018-08-24 10:54:58,841 - dataformat.py[line:24] - INFO: ABA106MCC0CX 本地数据库获取成功
+2018-08-24 10:54:58,842 - dataformat.py[line:24] - INFO: ABA120JJACCX 本地数据库获取成功
+2018-08-24 10:54:58,843 - dataformat.py[line:24] - INFO: ABA220GJACCX 本地数据库获取成功
+2018-08-24 10:54:58,844 - dataformat.py[line:24] - INFO: ABA220KGACC2X 本地数据库获取成功
+2018-08-24 10:54:58,845 - dataformat.py[line:24] - INFO: ABA225MCBXCX 本地数据库获取成功
+2018-08-24 10:54:58,846 - dataformat.py[line:24] - INFO: ABA225MEBXCX 本地数据库获取成功
+2018-08-24 10:54:58,847 - dataformat.py[line:24] - INFO: ABA226MCCXCX 本地数据库获取成功
+2018-08-24 10:54:58,847 - dataformat.py[line:24] - INFO: ABA270GGACCX 本地数据库获取成功
+2018-08-24 10:54:58,848 - dataformat.py[line:24] - INFO: ABA330GJACCX 本地数据库获取成功
+2018-08-24 10:54:58,849 - dataformat.py[line:24] - INFO: ABA330JJACCX 本地数据库获取成功
+2018-08-24 10:54:58,850 - dataformat.py[line:24] - INFO: ABA330KGACCX 本地数据库获取成功
+2018-08-24 10:54:58,851 - dataformat.py[line:24] - INFO: ABA473KEB0CX 本地数据库获取成功
+2018-08-24 10:54:58,852 - dataformat.py[line:24] - INFO: ABA473MCAXCX 本地数据库获取成功
+2018-08-24 10:54:58,853 - dataformat.py[line:24] - INFO: ABA474MCAXCX 本地数据库获取成功
+2018-08-24 10:54:58,854 - dataformat.py[line:24] - INFO: ABA475MBBXCX 本地数据库获取成功
+2018-08-24 10:54:58,854 - dataformat.py[line:24] - INFO: ABA475MCB0CX 本地数据库获取成功
+2018-08-24 10:54:58,855 - dataformat.py[line:24] - INFO: ABA475MCBXCX 本地数据库获取成功
+2018-08-24 10:54:58,856 - dataformat.py[line:24] - INFO: ABA475MEBXCX 本地数据库获取成功
+2018-08-24 10:54:58,857 - dataformat.py[line:24] - INFO: ABA476MCCXCX 本地数据库获取成功
+2018-08-24 10:54:58,858 - dataformat.py[line:24] - INFO: ACA01TBAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,858 - dataformat.py[line:24] - INFO: ACA01TCAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,859 - dataformat.py[line:24] - INFO: ACA10THAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,860 - dataformat.py[line:24] - INFO: ACA12HBAA3CX 本地数据库获取成功
+2018-08-24 10:54:58,861 - dataformat.py[line:24] - INFO: ACA12TJAA4CX 本地数据库获取成功
+2018-08-24 10:54:58,862 - dataformat.py[line:24] - INFO: ACA15HBAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,863 - dataformat.py[line:24] - INFO: ACA18HBAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,863 - dataformat.py[line:24] - INFO: ACA18THAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,864 - dataformat.py[line:24] - INFO: ACA22HBAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,865 - dataformat.py[line:24] - INFO: ACA22THAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,866 - dataformat.py[line:24] - INFO: ACA27HBAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,867 - dataformat.py[line:24] - INFO: ACA33HBAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,867 - dataformat.py[line:24] - INFO: ACA33HCAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,868 - dataformat.py[line:24] - INFO: ACA36HBAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,869 - dataformat.py[line:24] - INFO: ACA39HBAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,870 - dataformat.py[line:24] - INFO: ACA51HHAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,870 - dataformat.py[line:24] - INFO: ACA56HHAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,871 - dataformat.py[line:24] - INFO: ACA75HJAA3CX 本地数据库获取成功
+2018-08-24 10:54:58,872 - dataformat.py[line:24] - INFO: ACA82HHAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,872 - dataformat.py[line:24] - INFO: ACA91HHAC0CX 本地数据库获取成功
+2018-08-24 10:54:58,873 - dataformat.py[line:24] - INFO: ACB15FM9A7CX 本地数据库获取成功
+2018-08-24 10:54:58,874 - dataformat.py[line:24] - INFO: ACB22FM9BACX 本地数据库获取成功
+2018-08-24 10:54:58,875 - dataformat.py[line:24] - INFO: ACB010M9BLCX 本地数据库获取成功
+2018-08-24 10:54:58,875 - dataformat.py[line:24] - INFO: ACD0000031CX 本地数据库获取成功
+2018-08-24 10:54:58,876 - dataformat.py[line:24] - INFO: AEA0000263CX 本地数据库获取成功
+2018-08-24 10:54:58,877 - dataformat.py[line:24] - INFO: AEA0000264CX 本地数据库获取成功
+2018-08-24 10:54:58,877 - dataformat.py[line:24] - INFO: AEA0000268CX 本地数据库获取成功
+2018-08-24 10:54:58,878 - dataformat.py[line:24] - INFO: AEA0000270CX 本地数据库获取成功
+2018-08-24 10:54:58,879 - dataformat.py[line:24] - INFO: AEA0000273CX 本地数据库获取成功
+2018-08-24 10:54:58,879 - dataformat.py[line:24] - INFO: AEA0000276CX 本地数据库获取成功
+2018-08-24 10:54:58,880 - dataformat.py[line:24] - INFO: AEA0000277CX 本地数据库获取成功
+2018-08-24 10:54:58,881 - dataformat.py[line:24] - INFO: AEA0000370CX 本地数据库获取成功
+2018-08-24 10:54:58,881 - dataformat.py[line:24] - INFO: AEA0000379CX 本地数据库获取成功
+2018-08-24 10:54:58,883 - dataformat.py[line:24] - INFO: AEA0000411CX 本地数据库获取成功
+2018-08-24 10:54:58,884 - dataformat.py[line:24] - INFO: AEA0000414CX 本地数据库获取成功
+2018-08-24 10:54:58,885 - dataformat.py[line:24] - INFO: AEA0000416CX 本地数据库获取成功
+2018-08-24 10:54:58,885 - dataformat.py[line:24] - INFO: AEA0000417CX 本地数据库获取成功
+2018-08-24 10:54:58,886 - dataformat.py[line:24] - INFO: AEA0000516CX 本地数据库获取成功
+2018-08-24 10:54:58,886 - dataformat.py[line:24] - INFO: AEB0000292CX 本地数据库获取成功
+2018-08-24 10:54:58,887 - dataformat.py[line:24] - INFO: AEB0000293CX 本地数据库获取成功
+2018-08-24 10:54:58,888 - dataformat.py[line:24] - INFO: AEB0000297CX 本地数据库获取成功
+2018-08-24 10:54:58,888 - dataformat.py[line:24] - INFO: AEB0000300CX 本地数据库获取成功
+2018-08-24 10:54:58,890 - dataformat.py[line:24] - INFO: AEB0000347CX 本地数据库获取成功
+2018-08-24 10:54:58,890 - dataformat.py[line:24] - INFO: AEB0000358CX 本地数据库获取成功
+2018-08-24 10:54:58,891 - dataformat.py[line:24] - INFO: AED0000085CX 本地数据库获取成功
+2018-08-24 10:54:58,893 - dataformat.py[line:24] - INFO: AED0000127CX 本地数据库获取成功
+2018-08-24 10:54:58,894 - dataformat.py[line:24] - INFO: AED0000129CX 本地数据库获取成功
+2018-08-24 10:54:58,895 - dataformat.py[line:24] - INFO: AED0000133CX 本地数据库获取成功
+2018-08-24 10:54:58,896 - dataformat.py[line:24] - INFO: AED0000216CX 本地数据库获取成功
+2018-08-24 10:54:58,897 - dataformat.py[line:24] - INFO: AEE0000045CX 本地数据库获取成功
+2018-08-24 10:54:58,897 - dataformat.py[line:24] - INFO: AEH0000021CX 本地数据库获取成功
+2018-08-24 10:54:58,898 - dataformat.py[line:24] - INFO: AFA0000204CX 本地数据库获取成功
+2018-08-24 10:54:58,899 - dataformat.py[line:24] - INFO: AFB0000037CX 本地数据库获取成功
+2018-08-24 10:54:58,899 - dataformat.py[line:24] - INFO: AFB0000042CX 本地数据库获取成功
+2018-08-24 10:54:58,900 - dataformat.py[line:24] - INFO: AFD0000048CX 本地数据库获取成功
+2018-08-24 10:54:58,901 - dataformat.py[line:24] - INFO: AFD0000066CX 本地数据库获取成功
+2018-08-24 10:54:58,901 - dataformat.py[line:24] - INFO: AHA0000120CX 本地数据库获取成功
+2018-08-24 10:54:58,902 - dataformat.py[line:24] - INFO: AHA0000132CX 本地数据库获取成功
+2018-08-24 10:54:58,903 - dataformat.py[line:24] - INFO: AJA1920017CX 本地数据库获取成功
+2018-08-24 10:54:58,904 - dataformat.py[line:24] - INFO: AJA4800002CX 本地数据库获取成功
+2018-08-24 10:54:58,905 - dataformat.py[line:24] - INFO: ALC0000075CX 本地数据库获取成功
+2018-08-24 10:54:58,905 - dataformat.py[line:24] - INFO: AMA0001030CX 本地数据库获取成功
+2018-08-24 10:54:58,906 - dataformat.py[line:24] - INFO: AMB0000073CX 本地数据库获取成功
+2018-08-24 10:54:58,907 - dataformat.py[line:24] - INFO: AMD0000277CX 本地数据库获取成功
+2018-08-24 10:54:58,907 - dataformat.py[line:24] - INFO: AMD0000377CX 本地数据库获取成功
+2018-08-24 10:54:58,908 - dataformat.py[line:24] - INFO: AMF0000341CX 本地数据库获取成功
+2018-08-24 10:54:58,909 - dataformat.py[line:24] - INFO: AMM0000189CX 本地数据库获取成功
+2018-08-24 10:54:58,910 - dataformat.py[line:24] - INFO: AMN0000110CX 本地数据库获取成功
+2018-08-24 10:54:58,910 - dataformat.py[line:24] - INFO: AMR0000065CX 本地数据库获取成功
+2018-08-24 10:54:58,911 - dataformat.py[line:24] - INFO: AMR0000069CX 本地数据库获取成功
+2018-08-24 10:54:58,912 - dataformat.py[line:24] - INFO: AMS0000023CX 本地数据库获取成功
+2018-08-24 10:54:58,913 - dataformat.py[line:24] - INFO: AMY0000505CX 本地数据库获取成功
+2018-08-24 10:54:58,913 - dataformat.py[line:24] - INFO: AMY0000685CX 本地数据库获取成功
+2018-08-24 10:54:58,914 - dataformat.py[line:24] - INFO: AMY0000744CX 本地数据库获取成功
+2018-08-24 10:54:58,915 - dataformat.py[line:24] - INFO: AMY0001070CX 本地数据库获取成功
+2018-08-24 10:54:58,915 - dataformat.py[line:24] - INFO: AMY0001084CX 本地数据库获取成功
+2018-08-24 10:54:58,916 - dataformat.py[line:24] - INFO: AMY0001186CX 本地数据库获取成功
+2018-08-24 10:54:58,917 - dataformat.py[line:24] - INFO: AMY0001408CX 本地数据库获取成功
+2018-08-24 10:54:58,918 - dataformat.py[line:24] - INFO: AMY0001449CX 本地数据库获取成功
+2018-08-24 10:54:58,918 - dataformat.py[line:24] - INFO: AMY0001506CX 本地数据库获取成功
+2018-08-24 10:54:58,919 - dataformat.py[line:24] - INFO: AMY0001516CX 本地数据库获取成功
+2018-08-24 10:54:58,920 - dataformat.py[line:24] - INFO: AMY0001539CX 本地数据库获取成功
+2018-08-24 10:54:58,920 - dataformat.py[line:24] - INFO: ARD0060131CX 本地数据库获取成功
+2018-08-24 10:54:58,921 - dataformat.py[line:24] - INFO: ARE0040020CX 本地数据库获取成功
+2018-08-24 10:54:58,922 - dataformat.py[line:24] - INFO: ARF0010007CX 本地数据库获取成功
+2018-08-24 10:54:58,922 - dataformat.py[line:24] - INFO: ARF0060003CX 本地数据库获取成功
+2018-08-24 10:54:58,923 - dataformat.py[line:24] - INFO: ARH0040024CX 本地数据库获取成功
+2018-08-24 10:54:58,924 - dataformat.py[line:24] - INFO: ARH0240004CX 本地数据库获取成功
+2018-08-24 10:54:58,924 - dataformat.py[line:24] - INFO: ARQ0020002CX 本地数据库获取成功
+2018-08-24 10:54:58,925 - dataformat.py[line:24] - INFO: ARQ0030007CX 本地数据库获取成功
+2018-08-24 10:54:58,926 - dataformat.py[line:24] - INFO: AXA0000032CX 本地数据库获取成功
+2018-08-24 10:54:58,926 - dataformat.py[line:24] - INFO: AXA0000061CX 本地数据库获取成功
+2018-08-24 10:54:58,927 - dataformat.py[line:32] - INFO: fiducial 本地数据库上未找到，在PLM上查找
+2018-08-24 10:54:58,988 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): plm.tclcom.com
+2018-08-24 10:54:59,381 - connectionpool.py[line:396] - DEBUG: http://plm.tclcom.com:80 "POST /Windchill/wtcore/jsp/com/ptc/windchill/search/Search.jsp HTTP/1.1" 200 None
+2018-08-24 10:54:59,450 - get_description.py[line:33] - WARNING: fiducial 未在PLM上找到
+2018-08-24 10:54:59,452 - dataformat.py[line:34] - DEBUG: fiducial None
+2018-08-24 10:54:59,452 - dataformat.py[line:35] - DEBUG: fiducial PLM: None
+2018-08-24 10:54:59,454 - dataformat.py[line:32] - INFO: SIT001_96_PT 本地数据库上未找到，在PLM上查找
+2018-08-24 10:54:59,457 - connectionpool.py[line:208] - DEBUG: Starting new HTTP connection (1): plm.tclcom.com
+2018-08-24 10:54:59,937 - connectionpool.py[line:396] - DEBUG: http://plm.tclcom.com:80 "POST /Windchill/wtcore/jsp/com/ptc/windchill/search/Search.jsp HTTP/1.1" 200 None
+2018-08-24 10:55:00,002 - get_description.py[line:33] - WARNING: SIT001_96_PT 未在PLM上找到
+2018-08-24 10:55:00,004 - dataformat.py[line:34] - DEBUG: SIT001_96_PT None
+2018-08-24 10:55:00,004 - dataformat.py[line:35] - DEBUG: SIT001_96_PT PLM: None
+2018-08-24 10:55:00,006 - dataformat.py[line:24] - INFO: T1001371AAAA 本地数据库获取成功
+2018-08-24 10:55:00,007 - db.py[line:77] - INFO: table 'temp' exists,drop...
+2018-08-24 10:55:00,178 - db.py[line:79] - INFO: drop table 'temp' succeful
+2018-08-24 10:55:00,337 - dataformat.py[line:295] - INFO: 数量与位号个数不一致： 
+['1', 'BAB1M3000ECX', 'BAB1M3000EC1', '', 'TRIPOD', 'Main PCB,WIFI12,E Version,3+4+3 Layers,76.57×61.05×0.8 mm,BAB1M3000DC1,TRIPOD', '1', '', 'PCB'] 
  数量是：1
  位号个数是:0
 
-WARNING:root:数量与位号个数不一致： 
-['142', 'CPE0000004CX', 'CPE0000004C0', '', '', 'PCBA标签纸,PCBA Label,,20×11mm,,,,,, ', '1', '', 'Label', '', ''] 
+2018-08-24 10:55:00,339 - dataformat.py[line:295] - INFO: 数量与位号个数不一致： 
+['1A', '#BAB1M3000DCX', 'BAB1M3000DC1', '', 'TRIPOD', 'Main PCB,WIFI12,D Version,3+4+3 Layers,76.57×61.05×0.8 mm,BAB1M3000CC1,TRIPOD', '1', '', 'PCB'] 
  数量是：1
  位号个数是:0
 
-ERROR:root:
-UNIQUE constraint failed: temp.ref
+2018-08-24 10:55:00,348 - dataformat.py[line:295] - INFO: 数量与位号个数不一致： 
+['132', 'CPE0000004CX', 'CPE0000004C0', '', '', 'PCBA标签纸,PCBA Label,,20×11mm,,,,,, ', '1', '', 'Label'] 
+ 数量是：1
+ 位号个数是:0
+
+2018-08-24 10:55:00,370 - dataformat.py[line:332] - INFO: 位号重复项：C3413，重复数量：2
+
+2018-08-24 10:55:00,371 - dataformat.py[line:332] - INFO: 位号重复项：C4425，重复数量：3
+
+2018-08-24 10:55:00,371 - dataformat.py[line:332] - INFO: 位号重复项：L5901，重复数量：2
+
+2018-08-24 10:55:00,372 - dataformat.py[line:332] - INFO: 位号重复项：C4549，重复数量：3
+
+2018-08-24 10:55:00,372 - dataformat.py[line:332] - INFO: 位号重复项：C1703，重复数量：3
+
+2018-08-24 10:55:00,372 - dataformat.py[line:332] - INFO: 位号重复项：C4545，重复数量：3
+
+2018-08-24 10:55:00,373 - dataformat.py[line:332] - INFO: 位号重复项：C4516，重复数量：3
+
+2018-08-24 10:55:00,373 - dataformat.py[line:332] - INFO: 位号重复项：C4332，重复数量：2
+
+2018-08-24 10:55:00,373 - dataformat.py[line:332] - INFO: 位号重复项：C4509，重复数量：3
+
+2018-08-24 10:55:00,374 - dataformat.py[line:332] - INFO: 位号重复项：C4512，重复数量：3
+
+2018-08-24 10:55:00,374 - dataformat.py[line:332] - INFO: 位号重复项：C4508，重复数量：3
+
+2018-08-24 10:55:00,375 - dataformat.py[line:332] - INFO: 位号重复项：C4626，重复数量：2
+
+2018-08-24 10:55:00,375 - dataformat.py[line:332] - INFO: 位号重复项：C1621，重复数量：3
+
+2018-08-24 10:55:00,375 - dataformat.py[line:332] - INFO: 位号重复项：C4418，重复数量：2
+
+2018-08-24 10:55:00,376 - dataformat.py[line:332] - INFO: 位号重复项：C5950，重复数量：3
+
+2018-08-24 10:55:00,376 - dataformat.py[line:332] - INFO: 位号重复项：C4347，重复数量：2
+
+2018-08-24 10:55:00,376 - dataformat.py[line:332] - INFO: 位号重复项：Q5103，重复数量：2
+
+2018-08-24 10:55:00,377 - dataformat.py[line:332] - INFO: 位号重复项：L4701，重复数量：2
+
+2018-08-24 10:55:00,377 - dataformat.py[line:332] - INFO: 位号重复项：C4531，重复数量：3
+
+2018-08-24 10:55:00,377 - dataformat.py[line:332] - INFO: 位号重复项：C4120，重复数量：2
+
+2018-08-24 10:55:00,378 - dataformat.py[line:332] - INFO: 位号重复项：T5927，重复数量：2
+
+2018-08-24 10:55:00,378 - dataformat.py[line:332] - INFO: 位号重复项：L3301，重复数量：2
+
+2018-08-24 10:55:00,378 - dataformat.py[line:332] - INFO: 位号重复项：T5921，重复数量：2
+
+2018-08-24 10:55:00,379 - dataformat.py[line:332] - INFO: 位号重复项：C4520，重复数量：3
+
+2018-08-24 10:55:00,379 - dataformat.py[line:332] - INFO: 位号重复项：C1622，重复数量：3
+
+2018-08-24 10:55:00,379 - dataformat.py[line:332] - INFO: 位号重复项：C4510，重复数量：3
+
+2018-08-24 10:55:00,380 - dataformat.py[line:332] - INFO: 位号重复项：R4307，重复数量：3
+
+2018-08-24 10:55:00,380 - dataformat.py[line:332] - INFO: 位号重复项：C4505，重复数量：3
+
+2018-08-24 10:55:00,380 - dataformat.py[line:332] - INFO: 位号重复项：R4406，重复数量：2
+
+2018-08-24 10:55:00,380 - dataformat.py[line:332] - INFO: 位号重复项：R4304，重复数量：2
+
+2018-08-24 10:55:00,381 - dataformat.py[line:332] - INFO: 位号重复项：L3303，重复数量：2
+
+2018-08-24 10:55:00,381 - dataformat.py[line:332] - INFO: 位号重复项：C4633，重复数量：2
+
+2018-08-24 10:55:00,381 - dataformat.py[line:332] - INFO: 位号重复项：C1401，重复数量：3
+
+2018-08-24 10:55:00,382 - dataformat.py[line:332] - INFO: 位号重复项：C4116，重复数量：3
+
+2018-08-24 10:55:00,382 - dataformat.py[line:332] - INFO: 位号重复项：C4504，重复数量：3
+
+2018-08-24 10:55:00,382 - dataformat.py[line:332] - INFO: 位号重复项：L4629，重复数量：2
+
+2018-08-24 10:55:00,382 - dataformat.py[line:332] - INFO: 位号重复项：C4705，重复数量：3
+
+2018-08-24 10:55:00,383 - dataformat.py[line:332] - INFO: 位号重复项：C4543，重复数量：3
+
+2018-08-24 10:55:00,383 - dataformat.py[line:332] - INFO: 位号重复项：Q5102，重复数量：2
+
+2018-08-24 10:55:00,383 - dataformat.py[line:332] - INFO: 位号重复项：C4101，重复数量：3
+
+2018-08-24 10:55:00,383 - dataformat.py[line:332] - INFO: 位号重复项：C4527，重复数量：3
+
+2018-08-24 10:55:00,384 - dataformat.py[line:332] - INFO: 位号重复项：C4345，重复数量：2
+
+2018-08-24 10:55:00,384 - dataformat.py[line:332] - INFO: 位号重复项：C2133，重复数量：3
+
+2018-08-24 10:55:00,384 - dataformat.py[line:332] - INFO: 位号重复项：C1301，重复数量：3
+
+2018-08-24 10:55:00,385 - dataformat.py[line:332] - INFO: 位号重复项：C4538，重复数量：3
+
+2018-08-24 10:55:00,385 - dataformat.py[line:332] - INFO: 位号重复项：C4105，重复数量：3
+
+2018-08-24 10:55:00,385 - dataformat.py[line:332] - INFO: 位号重复项：C4548，重复数量：3
+
+2018-08-24 10:55:00,386 - dataformat.py[line:332] - INFO: 位号重复项：C4103，重复数量：3
+
+2018-08-24 10:55:00,386 - dataformat.py[line:332] - INFO: 位号重复项：L3304，重复数量：2
+
+2018-08-24 10:55:00,386 - dataformat.py[line:332] - INFO: 位号重复项：C4429，重复数量：3
+
+2018-08-24 10:55:00,386 - dataformat.py[line:332] - INFO: 位号重复项：C5951，重复数量：3
+
+2018-08-24 10:55:00,387 - dataformat.py[line:332] - INFO: 位号重复项：C4502，重复数量：3
+
+2018-08-24 10:55:00,387 - dataformat.py[line:332] - INFO: 位号重复项：C5911，重复数量：3
+
+2018-08-24 10:55:00,387 - dataformat.py[line:332] - INFO: 位号重复项：C4514，重复数量：3
+
+2018-08-24 10:55:00,388 - dataformat.py[line:332] - INFO: 位号重复项：C4533，重复数量：3
+
+2018-08-24 10:55:00,388 - dataformat.py[line:332] - INFO: 位号重复项：C4644，重复数量：2
+
+2018-08-24 10:55:00,388 - dataformat.py[line:332] - INFO: 位号重复项：L4313，重复数量：2
+
+2018-08-24 10:55:00,388 - dataformat.py[line:332] - INFO: 位号重复项：C4519，重复数量：3
+
+2018-08-24 10:55:00,389 - dataformat.py[line:332] - INFO: 位号重复项：C4528，重复数量：3
+
+2018-08-24 10:55:00,389 - dataformat.py[line:332] - INFO: 位号重复项：Q5101，重复数量：2
+
+2018-08-24 10:55:00,389 - dataformat.py[line:332] - INFO: 位号重复项：C1632，重复数量：3
+
+2018-08-24 10:55:00,389 - dataformat.py[line:332] - INFO: 位号重复项：C4115，重复数量：3
+
+2018-08-24 10:55:00,390 - dataformat.py[line:332] - INFO: 位号重复项：C3102，重复数量：3
+
+2018-08-24 10:55:00,390 - dataformat.py[line:332] - INFO: 位号重复项：C4506，重复数量：3
+
+2018-08-24 10:55:00,390 - dataformat.py[line:332] - INFO: 位号重复项：Q5106，重复数量：2
+
+2018-08-24 10:55:00,391 - dataformat.py[line:332] - INFO: 位号重复项：R5914，重复数量：3
+
+2018-08-24 10:55:00,391 - dataformat.py[line:332] - INFO: 位号重复项：Q5105，重复数量：2
+
+2018-08-24 10:55:00,391 - dataformat.py[line:332] - INFO: 位号重复项：C1732，重复数量：3
+
+2018-08-24 10:55:00,391 - dataformat.py[line:332] - INFO: 位号重复项：L3302，重复数量：2
+
+2018-08-24 10:55:00,392 - dataformat.py[line:332] - INFO: 位号重复项：C4104，重复数量：3
+
+2018-08-24 10:55:00,392 - dataformat.py[line:332] - INFO: 位号重复项：J3402，重复数量：2
+
+2018-08-24 10:55:00,392 - dataformat.py[line:332] - INFO: 位号重复项：C1501，重复数量：3
+
+2018-08-24 10:55:00,392 - dataformat.py[line:332] - INFO: 位号重复项：C5912，重复数量：3
+
+2018-08-24 10:55:00,393 - dataformat.py[line:332] - INFO: 位号重复项：C3403，重复数量：3
+
+2018-08-24 10:55:00,393 - dataformat.py[line:332] - INFO: 位号重复项：C4546，重复数量：3
+
+2018-08-24 10:55:00,393 - dataformat.py[line:332] - INFO: 位号重复项：C4637，重复数量：2
+
+2018-08-24 10:55:00,393 - dataformat.py[line:332] - INFO: 位号重复项：C3101，重复数量：2
+
+2018-08-24 10:55:00,394 - dataformat.py[line:332] - INFO: 位号重复项：C4604，重复数量：2
+
+2018-08-24 10:55:00,394 - dataformat.py[line:332] - INFO: 位号重复项：C4532，重复数量：3
+
+2018-08-24 10:55:00,394 - dataformat.py[line:332] - INFO: 位号重复项：C4529，重复数量：3
+
+2018-08-24 10:55:00,395 - dataformat.py[line:332] - INFO: 位号重复项：C4636，重复数量：2
+
+2018-08-24 10:55:00,395 - dataformat.py[line:332] - INFO: 位号重复项：C4117，重复数量：3
+
+2018-08-24 10:55:00,395 - dataformat.py[line:332] - INFO: 位号重复项：C4513，重复数量：3
+
+2018-08-24 10:55:00,395 - dataformat.py[line:332] - INFO: 位号重复项：C1615，重复数量：3
+
+2018-08-24 10:55:00,396 - dataformat.py[line:332] - INFO: 位号重复项：C4503，重复数量：3
+
+2018-08-24 10:55:00,396 - dataformat.py[line:332] - INFO: 位号重复项：C1722，重复数量：3
+
+2018-08-24 10:55:00,396 - dataformat.py[line:332] - INFO: 位号重复项：C4346，重复数量：2
+
+2018-08-24 10:55:00,396 - dataformat.py[line:332] - INFO: 位号重复项：C4534，重复数量：3
+
+2018-08-24 10:55:00,397 - dataformat.py[line:332] - INFO: 位号重复项：Q5104，重复数量：2
+
+2018-08-24 10:55:00,397 - dataformat.py[line:332] - INFO: 位号重复项：C1302，重复数量：3
+
+2018-08-24 10:55:00,397 - dataformat.py[line:332] - INFO: 位号重复项：C4102，重复数量：3
+
+2018-08-24 10:55:00,398 - dataformat.py[line:332] - INFO: 位号重复项：C4334，重复数量：2
+
+2018-08-24 10:55:00,398 - dataformat.py[line:332] - INFO: 位号重复项：C1641，重复数量：3
+
+2018-08-24 10:55:00,398 - dataformat.py[line:332] - INFO: 位号重复项：C1626，重复数量：3
+
+2018-08-24 10:55:00,398 - dataformat.py[line:332] - INFO: 位号重复项：T5920，重复数量：2
+
+2018-08-24 10:55:00,399 - dataformat.py[line:332] - INFO: 位号重复项：L3305，重复数量：2
+
+2018-08-24 10:55:00,399 - dataformat.py[line:332] - INFO: 位号重复项：C4542，重复数量：3
+
+2018-08-24 10:55:00,399 - dataformat.py[line:332] - INFO: 位号重复项：R4704，重复数量：3
+
+2018-08-24 10:55:00,400 - dataformat.py[line:332] - INFO: 位号重复项：C4507，重复数量：3
+
+2018-08-24 10:55:00,400 - dataformat.py[line:332] - INFO: 位号重复项：T5926，重复数量：2
+
+2018-08-24 10:55:00,400 - dataformat.py[line:332] - INFO: 位号重复项：L3401，重复数量：2
+
+2018-08-24 10:55:00,400 - dataformat.py[line:332] - INFO: 位号重复项：C3308，重复数量：3
+
+2018-08-24 10:55:00,401 - dataformat.py[line:332] - INFO: 位号重复项：C1631，重复数量：3
+
+2018-08-24 10:55:00,401 - dataformat.py[line:332] - INFO: 位号重复项：C4423，重复数量：2
+
+2018-08-24 10:55:00,401 - dataformat.py[line:332] - INFO: 位号重复项：C4525，重复数量：3
+
+2018-08-24 10:55:00,403 - db.py[line:158] - WARNING: T5920 位号重复，无法写入数据库
+('#AFD0000045CX', '过压保护二极管(ESD),Transient Voltage Suppressors,Ultra-low Capacitance/1-Line,0.25 pF,5 V,DFN0603-2L,Bi-Directional,0.6×0.3×0.3 mm,ESD5311Z-2/TR,WILLSEMI', '过压保护二极管(ESD)', 'None', '', 'T5920')
+
+2018-08-24 10:55:00,404 - db.py[line:158] - WARNING: T5921 位号重复，无法写入数据库
+('#AFD0000045CX', '过压保护二极管(ESD),Transient Voltage Suppressors,Ultra-low Capacitance/1-Line,0.25 pF,5 V,DFN0603-2L,Bi-Directional,0.6×0.3×0.3 mm,ESD5311Z-2/TR,WILLSEMI', '过压保护二极管(ESD)', 'None', '', 'T5921')
+
+2018-08-24 10:55:00,404 - db.py[line:158] - WARNING: T5926 位号重复，无法写入数据库
+('#AFD0000045CX', '过压保护二极管(ESD),Transient Voltage Suppressors,Ultra-low Capacitance/1-Line,0.25 pF,5 V,DFN0603-2L,Bi-Directional,0.6×0.3×0.3 mm,ESD5311Z-2/TR,WILLSEMI', '过压保护二极管(ESD)', 'None', '', 'T5926')
+
+2018-08-24 10:55:00,404 - db.py[line:158] - WARNING: T5927 位号重复，无法写入数据库
+('#AFD0000045CX', '过压保护二极管(ESD),Transient Voltage Suppressors,Ultra-low Capacitance/1-Line,0.25 pF,5 V,DFN0603-2L,Bi-Directional,0.6×0.3×0.3 mm,ESD5311Z-2/TR,WILLSEMI', '过压保护二极管(ESD)', 'None', '', 'T5927')
+
+2018-08-24 10:55:00,405 - db.py[line:158] - WARNING: Q5101 位号重复，无法写入数据库
+('#AHA0000132CX', '场效应管,MOSFET,N Channel,370. mW,0.210 ohm,SOT-723,N/A,WNM2030-3/TR,WILLSEMI', '场效应管', 'None', '', 'Q5101')
+
+2018-08-24 10:55:00,406 - db.py[line:158] - WARNING: Q5102 位号重复，无法写入数据库
+('#AHA0000132CX', '场效应管,MOSFET,N Channel,370. mW,0.210 ohm,SOT-723,N/A,WNM2030-3/TR,WILLSEMI', '场效应管', 'None', '', 'Q5102')
+
+2018-08-24 10:55:00,406 - db.py[line:158] - WARNING: Q5103 位号重复，无法写入数据库
+('#AHA0000132CX', '场效应管,MOSFET,N Channel,370. mW,0.210 ohm,SOT-723,N/A,WNM2030-3/TR,WILLSEMI', '场效应管', 'None', '', 'Q5103')
+
+2018-08-24 10:55:00,406 - db.py[line:158] - WARNING: Q5104 位号重复，无法写入数据库
+('#AHA0000132CX', '场效应管,MOSFET,N Channel,370. mW,0.210 ohm,SOT-723,N/A,WNM2030-3/TR,WILLSEMI', '场效应管', 'None', '', 'Q5104')
+
+2018-08-24 10:55:00,407 - db.py[line:158] - WARNING: Q5105 位号重复，无法写入数据库
+('#AHA0000132CX', '场效应管,MOSFET,N Channel,370. mW,0.210 ohm,SOT-723,N/A,WNM2030-3/TR,WILLSEMI', '场效应管', 'None', '', 'Q5105')
+
+2018-08-24 10:55:00,407 - db.py[line:158] - WARNING: Q5106 位号重复，无法写入数据库
+('#AHA0000132CX', '场效应管,MOSFET,N Channel,370. mW,0.210 ohm,SOT-723,N/A,WNM2030-3/TR,WILLSEMI', '场效应管', 'None', '', 'Q5106')
+
+2018-08-24 10:55:00,407 - db.py[line:158] - WARNING: R4304 位号重复，无法写入数据库
+('#AAC0104FB6CX', 'Chip NTC Thermistor,100K ohm,±1 %,1/10 W,0402,1.0×0.5×0.5 mm,SDNT1005X104F4250FTF,SUNLORD', 'Chip NTC Thermistor', '0402', '', 'R4304')
+
+2018-08-24 10:55:00,408 - db.py[line:158] - WARNING: R4704 位号重复，无法写入数据库
+('#AAA0000JC0CX', '电阻,Resistor,0 ohm,±5 %,1/10 W,0603,1.75×0.95×0.5 mm,RS-03000JT,FENGHUA', '电阻', '0603', '0', 'R4704')
+
+2018-08-24 10:55:00,408 - db.py[line:158] - WARNING: R5914 位号重复，无法写入数据库
+('#AAA0000JC0CX', '电阻,Resistor,0 ohm,±5 %,1/10 W,0603,1.75×0.95×0.5 mm,RS-03000JT,FENGHUA', '电阻', '0603', '0', 'R5914')
+
+2018-08-24 10:55:00,410 - db.py[line:158] - WARNING: R4307 位号重复，无法写入数据库
+('#AAA0000JC0CX', '电阻,Resistor,0 ohm,±5 %,1/10 W,0603,1.75×0.95×0.5 mm,RS-03000JT,FENGHUA', '电阻', '0603', '0', 'R4307')
+
+2018-08-24 10:55:00,410 - db.py[line:158] - WARNING: R4704 位号重复，无法写入数据库
+('#AAA0000JC0CX', '电阻,Resistor,0 ohm,±5 %,1/10 W,0603,1.7×0.9×0.55 mm,RC0603JR-070RL,YAGEO', '电阻', '0603', '0', 'R4704')
+
+2018-08-24 10:55:00,410 - db.py[line:158] - WARNING: R5914 位号重复，无法写入数据库
+('#AAA0000JC0CX', '电阻,Resistor,0 ohm,±5 %,1/10 W,0603,1.7×0.9×0.55 mm,RC0603JR-070RL,YAGEO', '电阻', '0603', '0', 'R5914')
+
+2018-08-24 10:55:00,411 - db.py[line:158] - WARNING: R4307 位号重复，无法写入数据库
+('#AAA0000JC0CX', '电阻,Resistor,0 ohm,±5 %,1/10 W,0603,1.7×0.9×0.55 mm,RC0603JR-070RL,YAGEO', '电阻', '0603', '0', 'R4307')
+
+2018-08-24 10:55:00,416 - db.py[line:158] - WARNING: C4345 位号重复，无法写入数据库
+('#ACA43HHA04CX', '电感,Inductor,4.3 nH,±3 %,DCR=0.58 ohm,300 mA,0201,Film,0.63×0.33×0.33 mm,LQP03TG4N3H02D,MURATA', '电感', '0201', '4.3nh', 'C4345')
+
+2018-08-24 10:55:00,416 - db.py[line:158] - WARNING: R4406 位号重复，无法写入数据库
+('#ACA43HHA04CX', '电感,Inductor,4.3 nH,±3 %,DCR=0.58 ohm,300 mA,0201,Film,0.63×0.33×0.33 mm,LQP03TG4N3H02D,MURATA', '电感', '0201', '4.3nh', 'R4406')
+
+2018-08-24 10:55:00,417 - db.py[line:158] - WARNING: L4313 位号重复，无法写入数据库
+('#ACA43HHA04CX', '电感,Inductor,4.3 nH,±3 %,DCR=0.58 ohm,300 mA,0201,Film,0.63×0.33×0.33 mm,LQP03TG4N3H02D,MURATA', '电感', '0201', '4.3nh', 'L4313')
+
+2018-08-24 10:55:00,418 - db.py[line:158] - WARNING: L3401 位号重复，无法写入数据库
+('#ACB010M9A3CX', 'Power Inductor,1uH,±20%,0.058 ohm,SMD,3200 mA,3000 mA,MultiLayer,2.2×1.8×1.00 mm,MP201610S1R0MFR,ICT', 'Power Inductor', 'None', '', 'L3401')
+
+2018-08-24 10:55:00,419 - db.py[line:158] - WARNING: L3301 位号重复，无法写入数据库
+('#ACB010M9A3CX', 'Power Inductor,1uH,±20%,0.058 ohm,SMD,3200 mA,3000 mA,MultiLayer,2.2×1.8×1.00 mm,MP201610S1R0MFR,ICT', 'Power Inductor', 'None', '', 'L3301')
+
+2018-08-24 10:55:00,419 - db.py[line:158] - WARNING: L3303 位号重复，无法写入数据库
+('#ACB010M9A3CX', 'Power Inductor,1uH,±20%,0.058 ohm,SMD,3200 mA,3000 mA,MultiLayer,2.2×1.8×1.00 mm,MP201610S1R0MFR,ICT', 'Power Inductor', 'None', '', 'L3303')
+
+2018-08-24 10:55:00,419 - db.py[line:158] - WARNING: L3305 位号重复，无法写入数据库
+('#ACB010M9A3CX', 'Power Inductor,1uH,±20%,0.058 ohm,SMD,3200 mA,3000 mA,MultiLayer,2.2×1.8×1.00 mm,MP201610S1R0MFR,ICT', 'Power Inductor', 'None', '', 'L3305')
+
+2018-08-24 10:55:00,420 - db.py[line:158] - WARNING: L5901 位号重复，无法写入数据库
+('#ACB010M9A3CX', 'Power Inductor,1uH,±20%,0.058 ohm,SMD,3200 mA,3000 mA,MultiLayer,2.2×1.8×1.00 mm,MP201610S1R0MFR,ICT', 'Power Inductor', 'None', '', 'L5901')
+
+2018-08-24 10:55:00,421 - db.py[line:158] - WARNING: L4701 位号重复，无法写入数据库
+('#ACB22FM9A9CX', 'Power Inductor,2.2 uH,±20%,0.135 ohm,SMD,2200 mA,1M Hz,2300 mA,MultiLayer,2.0×1.6 mm,MP201610S2R2MFR,ICT', 'Power Inductor', 'None', '', 'L4701')
+
+2018-08-24 10:55:00,421 - db.py[line:158] - WARNING: L3302 位号重复，无法写入数据库
+('#ACB22FM9A9CX', 'Power Inductor,2.2 uH,±20%,0.135 ohm,SMD,2200 mA,1M Hz,2300 mA,MultiLayer,2.0×1.6 mm,MP201610S2R2MFR,ICT', 'Power Inductor', 'None', '', 'L3302')
+
+2018-08-24 10:55:00,421 - db.py[line:158] - WARNING: L3304 位号重复，无法写入数据库
+('#ACB22FM9A9CX', 'Power Inductor,2.2 uH,±20%,0.135 ohm,SMD,2200 mA,1M Hz,2300 mA,MultiLayer,2.0×1.6 mm,MP201610S2R2MFR,ICT', 'Power Inductor', 'None', '', 'L3304')
+
+2018-08-24 10:55:00,422 - db.py[line:158] - WARNING: C4633 位号重复，无法写入数据库
+('#ABA02FAJACCX', '普通电容,Capacitor,0.2 pF,±0.05 pF,50 V,C0G,0201,0.63×0.33×0.33 mm,GRM0335C1HR20WA01,MURATA', '普通电容', '0201', '0.2pf', 'C4633')
+
+2018-08-24 10:55:00,422 - db.py[line:158] - WARNING: C4644 位号重复，无法写入数据库
+('#ABA02FAJACCX', '普通电容,Capacitor,0.2 pF,±0.05 pF,50 V,C0G,0201,0.63×0.33×0.33 mm,GRM0335C1HR20WA01,MURATA', '普通电容', '0201', '0.2pf', 'C4644')
+
+2018-08-24 10:55:00,423 - db.py[line:158] - WARNING: L4629 位号重复，无法写入数据库
+('#ABA02FAJACCX', '普通电容,Capacitor,0.2 pF,±0.05 pF,50 V,C0G,0201,0.63×0.33×0.33 mm,GRM0335C1HR20WA01,MURATA', '普通电容', '0201', '0.2pf', 'L4629')
+
+2018-08-24 10:55:00,425 - db.py[line:158] - WARNING: C4332 位号重复，无法写入数据库
+('#ABA102MJAWCX', 'Capacitor,1 nF,±20 %,50 V,X7R,0201,C0201X7R102M500NT,EYANG', 'Capacitor', '0201', '', 'C4332')
+
+2018-08-24 10:55:00,426 - db.py[line:158] - WARNING: C4334 位号重复，无法写入数据库
+('#ABA102MJAWCX', 'Capacitor,1 nF,±20 %,50 V,X7R,0201,C0201X7R102M500NT,EYANG', 'Capacitor', '0201', '', 'C4334')
+
+2018-08-24 10:55:00,427 - db.py[line:158] - WARNING: C4346 位号重复，无法写入数据库
+('#ABA102MJAWCX', 'Capacitor,1 nF,±20 %,50 V,X7R,0201,C0201X7R102M500NT,EYANG', 'Capacitor', '0201', '', 'C4346')
+
+2018-08-24 10:55:00,428 - db.py[line:158] - WARNING: C4347 位号重复，无法写入数据库
+('#ABA102MJAWCX', 'Capacitor,1 nF,±20 %,50 V,X7R,0201,C0201X7R102M500NT,EYANG', 'Capacitor', '0201', '', 'C4347')
+
+2018-08-24 10:55:00,428 - db.py[line:158] - WARNING: C4418 位号重复，无法写入数据库
+('#ABA102MJAWCX', 'Capacitor,1 nF,±20 %,50 V,X7R,0201,C0201X7R102M500NT,EYANG', 'Capacitor', '0201', '', 'C4418')
+
+2018-08-24 10:55:00,429 - db.py[line:158] - WARNING: C4423 位号重复，无法写入数据库
+('#ABA102MJAWCX', 'Capacitor,1 nF,±20 %,50 V,X7R,0201,C0201X7R102M500NT,EYANG', 'Capacitor', '0201', '', 'C4423')
+
+2018-08-24 10:55:00,429 - db.py[line:158] - WARNING: C4120 位号重复，无法写入数据库
+('#ABA102MJAWCX', 'Capacitor,1 nF,±20 %,50 V,X7R,0201,C0201X7R102M500NT,EYANG', 'Capacitor', '0201', '', 'C4120')
+
+2018-08-24 10:55:00,430 - db.py[line:158] - WARNING: C3101 位号重复，无法写入数据库
+('#ABA102MJAWCX', 'Capacitor,1 nF,±20 %,50 V,X7R,0201,C0201X7R102M500NT,EYANG', 'Capacitor', '0201', '', 'C3101')
+
+2018-08-24 10:55:00,430 - db.py[line:158] - WARNING: C4604 位号重复，无法写入数据库
+('#ABA102MJAWCX', 'Capacitor,1 nF,±20 %,50 V,X7R,0201,C0201X7R102M500NT,EYANG', 'Capacitor', '0201', '', 'C4604')
+
+2018-08-24 10:55:00,431 - db.py[line:158] - WARNING: C4626 位号重复，无法写入数据库
+('#ABA102MJAWCX', 'Capacitor,1 nF,±20 %,50 V,X7R,0201,C0201X7R102M500NT,EYANG', 'Capacitor', '0201', '', 'C4626')
+
+2018-08-24 10:55:00,431 - db.py[line:158] - WARNING: C4636 位号重复，无法写入数据库
+('#ABA102MJAWCX', 'Capacitor,1 nF,±20 %,50 V,X7R,0201,C0201X7R102M500NT,EYANG', 'Capacitor', '0201', '', 'C4636')
+
+2018-08-24 10:55:00,432 - db.py[line:158] - WARNING: C4637 位号重复，无法写入数据库
+('#ABA102MJAWCX', 'Capacitor,1 nF,±20 %,50 V,X7R,0201,C0201X7R102M500NT,EYANG', 'Capacitor', '0201', '', 'C4637')
+
+2018-08-24 10:55:00,432 - db.py[line:158] - WARNING: C3413 位号重复，无法写入数据库
+('#ABA473MJBXCX', '普通电容,Capacitor,47 nF,±20 %,50 V,X5R,0402,1.15×0.63×0.63 mm,C0402X5R473M500NTN,EYANG', '普通电容', '0402', '47nf', 'C3413')
+
+2018-08-24 10:55:00,434 - db.py[line:158] - WARNING: C4101 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4101')
+
+2018-08-24 10:55:00,434 - db.py[line:158] - WARNING: C4102 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4102')
+
+2018-08-24 10:55:00,435 - db.py[line:158] - WARNING: C4103 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4103')
+
+2018-08-24 10:55:00,435 - db.py[line:158] - WARNING: C4104 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4104')
+
+2018-08-24 10:55:00,435 - db.py[line:158] - WARNING: C4105 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4105')
+
+2018-08-24 10:55:00,436 - db.py[line:158] - WARNING: C4425 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4425')
+
+2018-08-24 10:55:00,436 - db.py[line:158] - WARNING: C4429 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4429')
+
+2018-08-24 10:55:00,437 - db.py[line:158] - WARNING: C3403 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C3403')
+
+2018-08-24 10:55:00,437 - db.py[line:158] - WARNING: C4502 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4502')
+
+2018-08-24 10:55:00,438 - db.py[line:158] - WARNING: C4503 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4503')
+
+2018-08-24 10:55:00,438 - db.py[line:158] - WARNING: C4504 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4504')
+
+2018-08-24 10:55:00,438 - db.py[line:158] - WARNING: C4505 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4505')
+
+2018-08-24 10:55:00,439 - db.py[line:158] - WARNING: C4506 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4506')
+
+2018-08-24 10:55:00,439 - db.py[line:158] - WARNING: C4507 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4507')
+
+2018-08-24 10:55:00,440 - db.py[line:158] - WARNING: C4508 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4508')
+
+2018-08-24 10:55:00,440 - db.py[line:158] - WARNING: C4509 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4509')
+
+2018-08-24 10:55:00,440 - db.py[line:158] - WARNING: C4510 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4510')
+
+2018-08-24 10:55:00,441 - db.py[line:158] - WARNING: C4512 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4512')
+
+2018-08-24 10:55:00,441 - db.py[line:158] - WARNING: C4513 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4513')
+
+2018-08-24 10:55:00,441 - db.py[line:158] - WARNING: C4514 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4514')
+
+2018-08-24 10:55:00,442 - db.py[line:158] - WARNING: C4516 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4516')
+
+2018-08-24 10:55:00,442 - db.py[line:158] - WARNING: C4519 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4519')
+
+2018-08-24 10:55:00,442 - db.py[line:158] - WARNING: C4520 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4520')
+
+2018-08-24 10:55:00,443 - db.py[line:158] - WARNING: C4525 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4525')
+
+2018-08-24 10:55:00,443 - db.py[line:158] - WARNING: C4527 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4527')
+
+2018-08-24 10:55:00,444 - db.py[line:158] - WARNING: C4528 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4528')
+
+2018-08-24 10:55:00,445 - db.py[line:158] - WARNING: C4529 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4529')
+
+2018-08-24 10:55:00,445 - db.py[line:158] - WARNING: C4531 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4531')
+
+2018-08-24 10:55:00,446 - db.py[line:158] - WARNING: C4532 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4532')
+
+2018-08-24 10:55:00,446 - db.py[line:158] - WARNING: C4533 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4533')
+
+2018-08-24 10:55:00,446 - db.py[line:158] - WARNING: C4534 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4534')
+
+2018-08-24 10:55:00,447 - db.py[line:158] - WARNING: C4538 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4538')
+
+2018-08-24 10:55:00,447 - db.py[line:158] - WARNING: C4542 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4542')
+
+2018-08-24 10:55:00,447 - db.py[line:158] - WARNING: C4543 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4543')
+
+2018-08-24 10:55:00,448 - db.py[line:158] - WARNING: C4545 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4545')
+
+2018-08-24 10:55:00,448 - db.py[line:158] - WARNING: C4546 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4546')
+
+2018-08-24 10:55:00,448 - db.py[line:158] - WARNING: C4548 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4548')
+
+2018-08-24 10:55:00,449 - db.py[line:158] - WARNING: C4549 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4549')
+
+2018-08-24 10:55:00,449 - db.py[line:158] - WARNING: C1301 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C1301')
+
+2018-08-24 10:55:00,450 - db.py[line:158] - WARNING: C1302 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C1302')
+
+2018-08-24 10:55:00,450 - db.py[line:158] - WARNING: C4705 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4705')
+
+2018-08-24 10:55:00,450 - db.py[line:158] - WARNING: C5950 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C5950')
+
+2018-08-24 10:55:00,451 - db.py[line:158] - WARNING: C5951 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C5951')
+
+2018-08-24 10:55:00,451 - db.py[line:158] - WARNING: C1401 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C1401')
+
+2018-08-24 10:55:00,451 - db.py[line:158] - WARNING: C1615 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C1615')
+
+2018-08-24 10:55:00,452 - db.py[line:158] - WARNING: C1621 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C1621')
+
+2018-08-24 10:55:00,452 - db.py[line:158] - WARNING: C1622 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C1622')
+
+2018-08-24 10:55:00,452 - db.py[line:158] - WARNING: C1626 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C1626')
+
+2018-08-24 10:55:00,453 - db.py[line:158] - WARNING: C1631 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C1631')
+
+2018-08-24 10:55:00,453 - db.py[line:158] - WARNING: C1632 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C1632')
+
+2018-08-24 10:55:00,453 - db.py[line:158] - WARNING: C1641 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C1641')
+
+2018-08-24 10:55:00,454 - db.py[line:158] - WARNING: C1703 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C1703')
+
+2018-08-24 10:55:00,454 - db.py[line:158] - WARNING: C1722 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C1722')
+
+2018-08-24 10:55:00,455 - db.py[line:158] - WARNING: C1732 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C1732')
+
+2018-08-24 10:55:00,455 - db.py[line:158] - WARNING: C2133 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C2133')
+
+2018-08-24 10:55:00,456 - db.py[line:158] - WARNING: C3102 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C3102')
+
+2018-08-24 10:55:00,456 - db.py[line:158] - WARNING: C3308 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C3308')
+
+2018-08-24 10:55:00,456 - db.py[line:158] - WARNING: C4115 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4115')
+
+2018-08-24 10:55:00,457 - db.py[line:158] - WARNING: C4116 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4116')
+
+2018-08-24 10:55:00,457 - db.py[line:158] - WARNING: C4117 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C4117')
+
+2018-08-24 10:55:00,457 - db.py[line:158] - WARNING: C1501 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C1501')
+
+2018-08-24 10:55:00,458 - db.py[line:158] - WARNING: C5911 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C5911')
+
+2018-08-24 10:55:00,458 - db.py[line:158] - WARNING: C5912 位号重复，无法写入数据库
+('#ABA104KCAXCX', '普通电容,Capacitor,100 nF,±10 %,6.3 V,X5R,0201,0.63×0.33×0.33 mm,CL03A104KQ3NNNC,SAMSUNG', '普通电容', '0201', '100nf', 'C5912')
+
+2018-08-24 10:55:00,458 - db.py[line:158] - WARNING: C4101 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4101')
+
+2018-08-24 10:55:00,459 - db.py[line:158] - WARNING: C4102 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4102')
+
+2018-08-24 10:55:00,459 - db.py[line:158] - WARNING: C4103 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4103')
+
+2018-08-24 10:55:00,459 - db.py[line:158] - WARNING: C4104 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4104')
+
+2018-08-24 10:55:00,460 - db.py[line:158] - WARNING: C4105 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4105')
+
+2018-08-24 10:55:00,460 - db.py[line:158] - WARNING: C4425 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4425')
+
+2018-08-24 10:55:00,460 - db.py[line:158] - WARNING: C4429 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4429')
+
+2018-08-24 10:55:00,461 - db.py[line:158] - WARNING: C3403 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C3403')
+
+2018-08-24 10:55:00,461 - db.py[line:158] - WARNING: C4502 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4502')
+
+2018-08-24 10:55:00,461 - db.py[line:158] - WARNING: C4503 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4503')
+
+2018-08-24 10:55:00,462 - db.py[line:158] - WARNING: C4504 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4504')
+
+2018-08-24 10:55:00,462 - db.py[line:158] - WARNING: C4505 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4505')
+
+2018-08-24 10:55:00,463 - db.py[line:158] - WARNING: C4506 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4506')
+
+2018-08-24 10:55:00,463 - db.py[line:158] - WARNING: C4507 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4507')
+
+2018-08-24 10:55:00,463 - db.py[line:158] - WARNING: C4508 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4508')
+
+2018-08-24 10:55:00,464 - db.py[line:158] - WARNING: C4509 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4509')
+
+2018-08-24 10:55:00,464 - db.py[line:158] - WARNING: C4510 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4510')
+
+2018-08-24 10:55:00,464 - db.py[line:158] - WARNING: C4512 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4512')
+
+2018-08-24 10:55:00,465 - db.py[line:158] - WARNING: C4513 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4513')
+
+2018-08-24 10:55:00,465 - db.py[line:158] - WARNING: C4514 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4514')
+
+2018-08-24 10:55:00,465 - db.py[line:158] - WARNING: C4516 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4516')
+
+2018-08-24 10:55:00,466 - db.py[line:158] - WARNING: C4519 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4519')
+
+2018-08-24 10:55:00,466 - db.py[line:158] - WARNING: C4520 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4520')
+
+2018-08-24 10:55:00,466 - db.py[line:158] - WARNING: C4525 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4525')
+
+2018-08-24 10:55:00,467 - db.py[line:158] - WARNING: C4527 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4527')
+
+2018-08-24 10:55:00,467 - db.py[line:158] - WARNING: C4528 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4528')
+
+2018-08-24 10:55:00,467 - db.py[line:158] - WARNING: C4529 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4529')
+
+2018-08-24 10:55:00,468 - db.py[line:158] - WARNING: C4531 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4531')
+
+2018-08-24 10:55:00,468 - db.py[line:158] - WARNING: C4532 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4532')
+
+2018-08-24 10:55:00,469 - db.py[line:158] - WARNING: C4533 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4533')
+
+2018-08-24 10:55:00,469 - db.py[line:158] - WARNING: C4534 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4534')
+
+2018-08-24 10:55:00,469 - db.py[line:158] - WARNING: C4538 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4538')
+
+2018-08-24 10:55:00,469 - db.py[line:158] - WARNING: C4542 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4542')
+
+2018-08-24 10:55:00,470 - db.py[line:158] - WARNING: C4543 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4543')
+
+2018-08-24 10:55:00,471 - db.py[line:158] - WARNING: C4545 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4545')
+
+2018-08-24 10:55:00,472 - db.py[line:158] - WARNING: C4546 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4546')
+
+2018-08-24 10:55:00,472 - db.py[line:158] - WARNING: C4548 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4548')
+
+2018-08-24 10:55:00,472 - db.py[line:158] - WARNING: C4549 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4549')
+
+2018-08-24 10:55:00,473 - db.py[line:158] - WARNING: C1301 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C1301')
+
+2018-08-24 10:55:00,473 - db.py[line:158] - WARNING: C1302 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C1302')
+
+2018-08-24 10:55:00,473 - db.py[line:158] - WARNING: C4705 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4705')
+
+2018-08-24 10:55:00,474 - db.py[line:158] - WARNING: C5950 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C5950')
+
+2018-08-24 10:55:00,474 - db.py[line:158] - WARNING: C5951 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C5951')
+
+2018-08-24 10:55:00,475 - db.py[line:158] - WARNING: C1401 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C1401')
+
+2018-08-24 10:55:00,475 - db.py[line:158] - WARNING: C1615 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C1615')
+
+2018-08-24 10:55:00,475 - db.py[line:158] - WARNING: C1621 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C1621')
+
+2018-08-24 10:55:00,476 - db.py[line:158] - WARNING: C1622 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C1622')
+
+2018-08-24 10:55:00,476 - db.py[line:158] - WARNING: C1626 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C1626')
+
+2018-08-24 10:55:00,476 - db.py[line:158] - WARNING: C1631 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C1631')
+
+2018-08-24 10:55:00,477 - db.py[line:158] - WARNING: C1632 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C1632')
+
+2018-08-24 10:55:00,477 - db.py[line:158] - WARNING: C1641 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C1641')
+
+2018-08-24 10:55:00,478 - db.py[line:158] - WARNING: C1703 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C1703')
+
+2018-08-24 10:55:00,478 - db.py[line:158] - WARNING: C1722 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C1722')
+
+2018-08-24 10:55:00,478 - db.py[line:158] - WARNING: C1732 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C1732')
+
+2018-08-24 10:55:00,479 - db.py[line:158] - WARNING: C2133 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C2133')
+
+2018-08-24 10:55:00,479 - db.py[line:158] - WARNING: C3102 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C3102')
+
+2018-08-24 10:55:00,479 - db.py[line:158] - WARNING: C3308 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C3308')
+
+2018-08-24 10:55:00,480 - db.py[line:158] - WARNING: C4115 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4115')
+
+2018-08-24 10:55:00,480 - db.py[line:158] - WARNING: C4116 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4116')
+
+2018-08-24 10:55:00,480 - db.py[line:158] - WARNING: C4117 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C4117')
+
+2018-08-24 10:55:00,480 - db.py[line:158] - WARNING: C1501 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C1501')
+
+2018-08-24 10:55:00,481 - db.py[line:158] - WARNING: C5911 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C5911')
+
+2018-08-24 10:55:00,481 - db.py[line:158] - WARNING: C5912 位号重复，无法写入数据库
+('#ABA104MEAXCX', 'Capacitor,100 nF,±20 %,16 V,X5R,0201,0.63×0.33×0.33 mm,C0201D5R104M160NTA,EYANG', 'Capacitor', '0201', '', 'C5912')
+
+2018-08-24 10:55:00,486 - db.py[line:158] - WARNING: J3402 位号重复，无法写入数据库
 ('#ARE0040021CX', '电池连接器,battery connector,Over PCB,4.0 PINs,3.1 mm,12.4x4.3xH5.4mm,With POST+W/O DIP,N/A,WKBAV006-G41P,JTCONN', '电池连接器', 'None', '', 'J3402')
 
-WARNING:root:wrong:
- SCH is :['46', 'R4207', 'AAA0000JA8CX', '0', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
- BOM is : 0201,3.6nh
+2018-08-24 10:55:00,727 - main.py[line:76] - INFO: difference:
+ SCH is :['R4207', 'AAA0000JA8CX', '0', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
+ BOM is : R4207,3.6nh,0201
 
-WARNING:root:wrong:
- SCH is :['71', 'R4406', 'AAA0000JA8CX', '0', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
- BOM is : 0201,4.3nh
+2018-08-24 10:55:00,732 - main.py[line:76] - INFO: difference:
+ SCH is :['R4306', 'AAA0000JA8CX', '0', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
+ BOM is : R4306,nc,
 
-WARNING:root:wrong:
- SCH is :['121', 'R4307', 'AAA0000JC6CX', '0R', '电阻,Resistor,0 ohm,±5 %,1/10 W,0603,N/A', '电阻', '0603', '0R']
- BOM is : None,普通电阻resistor0±1%1/10w06031.75×0.95×0.5mmrs-03000ftfenghua
+2018-08-24 10:55:00,735 - main.py[line:76] - INFO: difference:
+ SCH is :['R4314', 'AAA0000JA8CX', '0', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
+ BOM is : R4314,nc,
 
-WARNING:root:wrong:
- SCH is :['216', 'R4304', 'AAC0104FB3CX', '100K_NTC', '热敏电阻,NTC Chip Thermistor,100K ohm,±1 %,35 mW,0402', '热敏电阻', '0402', '100K_NTC']
- BOM is : 0402,100k
+2018-08-24 10:55:00,738 - main.py[line:76] - INFO: difference:
+ SCH is :['R4317', 'AAA0000JA8CX', '0', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
+ BOM is : R4317,nc,
 
-WARNING:root:wrong:
- SCH is :['254', 'C4427', 'ABA24FBJACCX', '2.4pF', '电容,Capacitor,2.4 pF,±0.1 pF,50 V,C0G,0201', '电容', '0201', '2.4pF']
- BOM is : ,nc
+2018-08-24 10:55:00,739 - main.py[line:76] - INFO: difference:
+ SCH is :['R4318', 'AAA0000JA8CX', '0', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
+ BOM is : R4318,nc,
 
-WARNING:root:wrong:
- SCH is :['274', 'C4214', 'ABA56FBJACCX', '39pF', '普通电容,Capacitor,5.6 pF,±0.1 pF,50 V,C0G,0201', '普通电容', '0201', '39pF']
- BOM is : 0201,33pf
+2018-08-24 10:55:00,741 - main.py[line:76] - INFO: difference:
+ SCH is :['R4321', 'AAA0000JA8CX', '0 ohm', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
+ BOM is : R4321,nc,
 
-WARNING:root:wrong:
- SCH is :['528', 'C4244', 'ABA120JJACCX', '68pF', '电容,Capacitor,12 pF,±5 %,50 V,C0G,0201', '电容', '0201', '68pF']
- BOM is : 0201,33pf
+2018-08-24 10:55:00,744 - main.py[line:76] - INFO: difference:
+ SCH is :['R4406', 'AAA0000JA8CX', '0', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
+ BOM is : R4406,4.3nh,0201
 
-WARNING:root:wrong:
- SCH is :['616', 'C4341', 'ABA270GGACCX', '3.0 nH', '普通电容,Capacitor,27 pF,±2 %,25 V,C0G,0201', '普通电容', '0201', '3.0nH']
- BOM is : 0201,3nh
+2018-08-24 10:55:00,746 - main.py[line:76] - INFO: difference:
+ SCH is :['R4407', 'AAA0000JA8CX', '0', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
+ BOM is : R4407,nc,
 
-WARNING:root:wrong:
- SCH is :['770', 'L4243', 'ACA18THAC0CX', 'NC', '电感,Inductor,18 nH,±3 %,0201,Film', '电感', '0201', 'NC']
- BOM is : 0201,12nh
+2018-08-24 10:55:00,757 - main.py[line:76] - INFO: difference:
+ SCH is :['R4602', 'AAA0000JA8CX', '', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
+ BOM is : R4602,2nh,0201
 
-WARNING:root:wrong:
- SCH is :['830', 'L4215', 'ACA82HHAC0CX', '7.1nH', '电感,Inductor,8.2 nH,±3 %,0201,Film', '电感', '0201', '7.1nH']
- BOM is : 0201,6.8nh
+2018-08-24 10:55:00,762 - main.py[line:76] - INFO: difference:
+ SCH is :['R4615', 'AAA0000JA8CX', '', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
+ BOM is : R4615,1.5nh,0201
 
-WARNING:root:wrong:
+2018-08-24 10:55:00,769 - main.py[line:76] - INFO: difference:
+ SCH is :['R5914', 'AAA0000JC0CX', '0_0603', '电阻,Resistor,0 ohm,±5 %,1/10 W,0603,N/A', '电阻', '0603', '0']
+ BOM is : R5914,普通电阻resistor0±1%1/10w06031.75×0.95×0.5mmrs-03000ftfenghua,None
+
+2018-08-24 10:55:00,770 - main.py[line:76] - INFO: difference:
+ SCH is :['R4704', 'AAA0000JC0CX', '0_0603', '电阻,Resistor,0 ohm,±5 %,1/10 W,0603,N/A', '电阻', '0603', '0']
+ BOM is : R4704,普通电阻resistor0±1%1/10w06031.75×0.95×0.5mmrs-03000ftfenghua,None
+
+2018-08-24 10:55:00,771 - main.py[line:76] - INFO: difference:
+ SCH is :['R4307', 'AAA0000JC6CX', 'NC', '电阻,Resistor,0 ohm,±5 %,1/10 W,0603,N/A', '电阻', '0603', 'NC']
+ BOM is : R4307,普通电阻resistor0±1%1/10w06031.75×0.95×0.5mmrs-03000ftfenghua,None
+
+2018-08-24 10:55:00,773 - main.py[line:76] - INFO: difference:
+ SCH is :['R3406', 'AAA0000JD5CX', 'NC', '电阻,Resistor,0 ohm,±5 %,1/8 W,0805', '电阻', '0805', 'NC']
+ BOM is : R3406,0,0805
+
+2018-08-24 10:55:00,782 - main.py[line:76] - INFO: difference:
+ SCH is :['R3113', 'AAA0103JA0CX', '10K_1%', '电阻,Resistor,10K ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '10K']
+ BOM is : R3113,100k,0201
+
+2018-08-24 10:55:00,784 - main.py[line:76] - INFO: difference:
+ SCH is :['R1220', 'AAA0103JA0CX', 'NC', '电阻,Resistor,10K ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', 'NC']
+ BOM is : R1220,10k,0201
+
+2018-08-24 10:55:00,786 - main.py[line:76] - INFO: difference:
+ SCH is :['R1219', 'AAA0103JA0CX', '10k', '电阻,Resistor,10K ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '10k']
+ BOM is : R1219,nc,
+
+2018-08-24 10:55:00,787 - main.py[line:76] - INFO: difference:
+ SCH is :['R1218', 'AAA0103JA0CX', 'NC', '电阻,Resistor,10K ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', 'NC']
+ BOM is : R1218,10k,0201
+
+2018-08-24 10:55:00,788 - main.py[line:76] - INFO: difference:
+ SCH is :['R1217', 'AAA0103JA0CX', '10k', '电阻,Resistor,10K ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '10k']
+ BOM is : R1217,nc,
+
+2018-08-24 10:55:00,790 - main.py[line:76] - INFO: difference:
+ SCH is :['R1214', 'AAA0103JA0CX', '10k', '电阻,Resistor,10K ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '10k']
+ BOM is : R1214,nc,
+
+2018-08-24 10:55:00,792 - main.py[line:76] - INFO: difference:
+ SCH is :['R1213', 'AAA0103JA0CX', 'NC', '电阻,Resistor,10K ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', 'NC']
+ BOM is : R1213,10k,0201
+
+2018-08-24 10:55:00,797 - main.py[line:76] - INFO: difference:
+ SCH is :['R3420', 'AAA0103JA8CX', '10k', '电阻,Resistor,10K ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '10k']
+ BOM is : R3420,nc,
+
+2018-08-24 10:55:00,805 - main.py[line:76] - INFO: difference:
+ SCH is :['R3405', 'AAA0104FA8CX', '24k_1%', '电阻,Resistor,100K ohm,±1 %,1/20 W,0201,N/A', '电阻', '0201', '24k']
+ BOM is : R3405,nc,
+
+2018-08-24 10:55:00,807 - main.py[line:76] - INFO: difference:
+ SCH is :['R3404', 'AAA0105FA0CX', '100k_1%', '电阻,Resistor,1M ohm,±1 %,1/20 W,0201,N/A', '电阻', '0201', '100k']
+ BOM is : R3404,nc,
+
+2018-08-24 10:55:00,813 - main.py[line:76] - INFO: difference:
+ SCH is :['R3116', 'AAA0203JA0CX', 'NC', '电阻,Resistor,20K ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', 'NC']
+ BOM is : R3116,200k,0201
+
+2018-08-24 10:55:00,814 - main.py[line:76] - INFO: difference:
+ SCH is :['R3111', 'AAA0203JA0CX', '20K_1%', '电阻,Resistor,20K ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '20K']
+ BOM is : R3111,nc,
+
+2018-08-24 10:55:00,816 - main.py[line:76] - INFO: difference:
+ SCH is :['R4608', 'AAA0222JA8CX', '2K', '电阻,Resistor,2.2K ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '2K']
+ BOM is : R4608,nc,
+
+2018-08-24 10:55:00,820 - main.py[line:76] - INFO: difference:
+ SCH is :['R4603', 'AAA0500JA8CX', '', '电阻,Resistor,50 ohm,±5 %,1/20 W,0201', '电阻', '0201', '50']
+ BOM is : R4603,51,0201
+
+2018-08-24 10:55:00,822 - main.py[line:76] - INFO: difference:
+ SCH is :['R4607', 'AAA0500JA8CX', '', '电阻,Resistor,50 ohm,±5 %,1/20 W,0201', '电阻', '0201', '50']
+ BOM is : R4607,51,0201
+
+2018-08-24 10:55:00,825 - main.py[line:76] - INFO: difference:
+ SCH is :['R4304', 'AAC0104FB3CX', '100K_NTC', '热敏电阻,NTC Chip Thermistor,100K ohm,±1 %,35 mW,0402', '热敏电阻', '0402', '100K_NTC']
+ BOM is : R4304,100k,0402
+
+2018-08-24 10:55:00,826 - main.py[line:76] - INFO: difference:
+ SCH is :['C4621', 'ABA05FBGACCX', '', '电容,Capacitor,0.5 pF,±0.1 pF,25 V,C0G,0201', '电容', '0201', '0.5pf']
+ BOM is : C4621,nc,
+
+2018-08-24 10:55:00,827 - main.py[line:76] - INFO: difference:
+ SCH is :['C4317', 'ABA05FBGACCX', '3.3nH', '电容,Capacitor,0.5 pF,±0.1 pF,25 V,C0G,0201', '电容', '0201', '3.3nH']
+ BOM is : C4317,nc,
+
+2018-08-24 10:55:00,829 - main.py[line:76] - INFO: difference:
+ SCH is :['C4644', 'ABA05FBGACCX', 'NC', '电容,Capacitor,0.5 pF,±0.1 pF,25 V,C0G,0201', '电容', '0201', 'NC']
+ BOM is : C4644,0.2pf,0201
+
+2018-08-24 10:55:00,830 - main.py[line:76] - INFO: difference:
+ SCH is :['C4619', 'ABA05FBGACCX', '', '电容,Capacitor,0.5 pF,±0.1 pF,25 V,C0G,0201', '电容', '0201', '0.5pf']
+ BOM is : C4619,1pf,0201
+
+2018-08-24 10:55:00,832 - main.py[line:76] - INFO: difference:
+ SCH is :['C4306', 'ABA05FBGACCX', '0.5pF', '电容,Capacitor,0.5 pF,±0.1 pF,25 V,C0G,0201', '电容', '0201', '0.5pF']
+ BOM is : C4306,nc,
+
+2018-08-24 10:55:00,833 - main.py[line:76] - INFO: difference:
+ SCH is :['C4609', 'ABA05FBGACCX', '', '电容,Capacitor,0.5 pF,±0.1 pF,25 V,C0G,0201', '电容', '0201', '0.5pf']
+ BOM is : C4609,5.6nh,0201
+
+2018-08-24 10:55:00,835 - main.py[line:76] - INFO: difference:
+ SCH is :['C4357', 'ABA05FBGACCX', '8.2nH', '电容,Capacitor,0.5 pF,±0.1 pF,25 V,C0G,0201', '电容', '0201', '8.2nH']
+ BOM is : C4357,nc,
+
+2018-08-24 10:55:00,837 - main.py[line:76] - INFO: difference:
+ SCH is :['C4330', 'ABA05FBGACCX', '0.5pF', '电容,Capacitor,0.5 pF,±0.1 pF,25 V,C0G,0201', '电容', '0201', '0.5pF']
+ BOM is : C4330,nc,
+
+2018-08-24 10:55:00,839 - main.py[line:76] - INFO: difference:
+ SCH is :['C4356', 'ABA05FBGACCX', '0.3pF', '电容,Capacitor,0.5 pF,±0.1 pF,25 V,C0G,0201', '电容', '0201', '0.3pF']
+ BOM is : C4356,nc,
+
+2018-08-24 10:55:00,840 - main.py[line:76] - INFO: difference:
+ SCH is :['C4633', 'ABA05FBGACCX', 'NC', '电容,Capacitor,0.5 pF,±0.1 pF,25 V,C0G,0201', '电容', '0201', 'NC']
+ BOM is : C4633,0.2pf,0201
+
+2018-08-24 10:55:00,841 - main.py[line:76] - INFO: difference:
+ SCH is :['C4622', 'ABA05FBGACCX', '', '电容,Capacitor,0.5 pF,±0.1 pF,25 V,C0G,0201', '电容', '0201', '0.5pf']
+ BOM is : C4622,nc,
+
+2018-08-24 10:55:00,844 - main.py[line:76] - INFO: difference:
+ SCH is :['C4448', 'ABA12FBGA0CX', '1.2pF', '电容,Capacitor,1.2 pF,±0.1 pF,25 V,C0G,0201,N/A,GRM0335C1E1R2BD01D,MURATA', '电容', '0201', '1.2pF']
+ BOM is : C4448,nc,
+
+2018-08-24 10:55:00,845 - main.py[line:76] - INFO: difference:
+ SCH is :['C4260', 'ABA18FAGACCX', '1.8pF', '普通电容,Capacitor,1.8 pF,±0.05 pF,25 V,C0G,0201', '普通电容', '0201', '1.8pF']
+ BOM is : C4260,nc,
+
+2018-08-24 10:55:00,849 - main.py[line:76] - INFO: difference:
+ SCH is :['C4441', 'ABA24FBJACCX', '2.4pF', '电容,Capacitor,2.4 pF,±0.1 pF,50 V,C0G,0201', '电容', '0201', '2.4pF']
+ BOM is : C4441,nc,
+
+2018-08-24 10:55:00,850 - main.py[line:76] - INFO: difference:
+ SCH is :['C4427', 'ABA24FBJACCX', '2.4pF', '电容,Capacitor,2.4 pF,±0.1 pF,50 V,C0G,0201', '电容', '0201', '2.4pF']
+ BOM is : C4427,nc,
+
+2018-08-24 10:55:00,851 - main.py[line:76] - INFO: difference:
+ SCH is :['C4257', 'ABA27FBJACCX', '27pF', '电容,Capacitor,2.7 pF,±0.1 pF,50 V,C0G,0201', '电容', '0201', '27pF']
+ BOM is : C4257,nc,
+
+2018-08-24 10:55:00,853 - main.py[line:76] - INFO: difference:
+ SCH is :['C4254', 'ABA27FBJACCX', '27pF', '电容,Capacitor,2.7 pF,±0.1 pF,50 V,C0G,0201', '电容', '0201', '27pF']
+ BOM is : C4254,nc,
+
+2018-08-24 10:55:00,855 - main.py[line:76] - INFO: difference:
+ SCH is :['C4255', 'ABA27FBJACCX', '27pF', '电容,Capacitor,2.7 pF,±0.1 pF,50 V,C0G,0201', '电容', '0201', '27pF']
+ BOM is : C4255,nc,
+
+2018-08-24 10:55:00,859 - main.py[line:76] - INFO: difference:
+ SCH is :['C4629', 'ABA47FAJACCX', '', '普通电容,Capacitor,4.7 pF,±0.05 pF,50 V,C0G,0201', '普通电容', '0201', '4.7pf']
+ BOM is : C4629,nc,
+
+2018-08-24 10:55:00,861 - main.py[line:76] - INFO: difference:
+ SCH is :['C4632', 'ABA47FAJACCX', 'NC', '普通电容,Capacitor,4.7 pF,±0.05 pF,50 V,C0G,0201', '普通电容', '0201', 'NC']
+ BOM is : C4632,0,0201
+
+2018-08-24 10:55:00,862 - main.py[line:76] - INFO: difference:
+ SCH is :['C4631', 'ABA47FAJACCX', '', '普通电容,Capacitor,4.7 pF,±0.05 pF,50 V,C0G,0201', '普通电容', '0201', '4.7pf']
+ BOM is : C4631,nc,
+
+2018-08-24 10:55:00,864 - main.py[line:76] - INFO: difference:
+ SCH is :['C4645', 'ABA47FAJACCX', '', '普通电容,Capacitor,4.7 pF,±0.05 pF,50 V,C0G,0201', '普通电容', '0201', '4.7pf']
+ BOM is : C4645,nc,
+
+2018-08-24 10:55:00,865 - main.py[line:76] - INFO: difference:
+ SCH is :['C4643', 'ABA47FAJACCX', 'NC', '普通电容,Capacitor,4.7 pF,±0.05 pF,50 V,C0G,0201', '普通电容', '0201', 'NC']
+ BOM is : C4643,0,0201
+
+2018-08-24 10:55:00,866 - main.py[line:76] - INFO: difference:
+ SCH is :['C4607', 'ABA47FAJACCX', 'NC', '普通电容,Capacitor,4.7 pF,±0.05 pF,50 V,C0G,0201', '普通电容', '0201', 'NC']
+ BOM is : C4607,0,0201
+
+2018-08-24 10:55:00,867 - main.py[line:76] - INFO: difference:
+ SCH is :['C4642', 'ABA47FAJACCX', 'NC', '普通电容,Capacitor,4.7 pF,±0.05 pF,50 V,C0G,0201', '普通电容', '0201', 'NC']
+ BOM is : C4642,0,0201
+
+2018-08-24 10:55:00,868 - main.py[line:76] - INFO: difference:
+ SCH is :['C4641', 'ABA47FAJACCX', '', '普通电容,Capacitor,4.7 pF,±0.05 pF,50 V,C0G,0201', '普通电容', '0201', '4.7pf']
+ BOM is : C4641,nc,
+
+2018-08-24 10:55:00,869 - main.py[line:76] - INFO: difference:
+ SCH is :['C4214', 'ABA56FBJACCX', '39pF', '普通电容,Capacitor,5.6 pF,±0.1 pF,50 V,C0G,0201', '普通电容', '0201', '39pF']
+ BOM is : C4214,nc,
+
+2018-08-24 10:55:00,874 - main.py[line:76] - INFO: difference:
+ SCH is :['C4602', 'ABA100JGACCX', '', '电容,Capacitor,10 pF,±5 %,25 V,C0G,0201', '电容', '0201', '10pf']
+ BOM is : C4602,0,0201
+
+2018-08-24 10:55:00,875 - main.py[line:76] - INFO: difference:
+ SCH is :['C4620', 'ABA100JGACCX', '', '电容,Capacitor,10 pF,±5 %,25 V,C0G,0201', '电容', '0201', '10pf']
+ BOM is : C4620,0,0201
+
+2018-08-24 10:55:00,880 - main.py[line:76] - INFO: difference:
+ SCH is :['C4608', 'ABA100JGACCX', '', '电容,Capacitor,10 pF,±5 %,25 V,C0G,0201', '电容', '0201', '10pf']
+ BOM is : C4608,5.6pf,0201
+
+2018-08-24 10:55:00,882 - main.py[line:76] - INFO: difference:
+ SCH is :['C4610', 'ABA100JGACCX', '', '电容,Capacitor,10 pF,±5 %,25 V,C0G,0201', '电容', '0201', '10pf']
+ BOM is : C4610,0,0201
+
+2018-08-24 10:55:00,886 - main.py[line:76] - INFO: difference:
+ SCH is :['C4618', 'ABA100JGACCX', '', '电容,Capacitor,10 pF,±5 %,25 V,C0G,0201', '电容', '0201', '10pf']
+ BOM is : C4618,1.5nh,0201
+
+2018-08-24 10:55:00,889 - main.py[line:76] - INFO: difference:
+ SCH is :['C4319', 'ABA101JJACCX', '100pF', '电容,Capacitor,100 pF,±5 %,50 V,C0G,0201', '电容', '0201', '100pF']
+ BOM is : C4319,nc,
+
+2018-08-24 10:55:00,890 - main.py[line:76] - INFO: difference:
+ SCH is :['C4314', 'ABA101JJACCX', '100pF', '电容,Capacitor,100 pF,±5 %,50 V,C0G,0201', '电容', '0201', '100pF']
+ BOM is : C4314,nc,
+
+2018-08-24 10:55:00,891 - main.py[line:76] - INFO: difference:
+ SCH is :['C4348', 'ABA101KEACCX', '2.0nH', '电容,Capacitor,100 pF,±10 %,16 V,C0G,0201', '电容', '0201', '2.0nH']
+ BOM is : C4348,nc,
+
+2018-08-24 10:55:00,892 - main.py[line:76] - INFO: difference:
+ SCH is :['C4243', 'ABA101KEACCX', '100pF', '电容,Capacitor,100 pF,±10 %,16 V,C0G,0201', '电容', '0201', '100pF']
+ BOM is : C4243,nc,
+
+2018-08-24 10:55:00,893 - main.py[line:76] - INFO: difference:
+ SCH is :['C4223', 'ABA101KEACCX', '100pF', '电容,Capacitor,100 pF,±10 %,16 V,C0G,0201', '电容', '0201', '100pF']
+ BOM is : C4223,nc,
+
+2018-08-24 10:55:00,927 - main.py[line:76] - INFO: difference:
+ SCH is :['C4315', 'ABA104MCA0CX', '100nF', '电容,Capacitor,100 nF,±20 %,6.3 V,X5R,0201,N/A,C0201X5R104M6R3N,EYANG', '电容', '0201', '100nF']
+ BOM is : C4315,nc,
+
+2018-08-24 10:55:00,928 - main.py[line:76] - INFO: difference:
+ SCH is :['C4318', 'ABA104MCA0CX', '100nF', '电容,Capacitor,100 nF,±20 %,6.3 V,X5R,0201,N/A,C0201X5R104M6R3N,EYANG', '电容', '0201', '100nF']
+ BOM is : C4318,nc,
+
+2018-08-24 10:55:00,991 - main.py[line:76] - INFO: difference:
+ SCH is :['C3408', 'ABA105MCAXCX', '1uF', '电容,Capacitor,1 uF,±20 %,6.3 V,X5R,0201', '电容', '0201', '1uF']
+ BOM is : C3408,33pf,0201
+
+2018-08-24 10:55:01,000 - main.py[line:76] - INFO: difference:
+ SCH is :['C3419', 'ABA106MCBXCX', '10uF_0402', '电容,Capacitor,10 uF,±20 %,6.3 V,X5R,0402', '电容', '0402', '10uF']
+ BOM is : C3419,nc,
+
+2018-08-24 10:55:01,004 - main.py[line:76] - INFO: difference:
+ SCH is :['C4244', 'ABA120JJACCX', '68pF', '电容,Capacitor,12 pF,±5 %,50 V,C0G,0201', '电容', '0201', '68pF']
+ BOM is : C4244,nc,
+
+2018-08-24 10:55:01,006 - main.py[line:76] - INFO: difference:
+ SCH is :['C4247', 'ABA120JJACCX', '100pF', '电容,Capacitor,12 pF,±5 %,50 V,C0G,0201', '电容', '0201', '100pF']
+ BOM is : C4247,nc,
+
+2018-08-24 10:55:01,013 - main.py[line:76] - INFO: difference:
+ SCH is :['C4447', 'ABA220GJACCX', '22pF', '电容,Capacitor,22 pF,±2 %,50 V,C0G,0201', '电容', '0201', '22pF']
+ BOM is : C4447,nc,
+
+2018-08-24 10:55:01,014 - main.py[line:76] - INFO: difference:
+ SCH is :['C4428', 'ABA220GJACCX', '22pF', '电容,Capacitor,22 pF,±2 %,50 V,C0G,0201', '电容', '0201', '22pF']
+ BOM is : C4428,nc,
+
+2018-08-24 10:55:01,015 - main.py[line:76] - INFO: difference:
+ SCH is :['C4424', 'ABA220GJACCX', '22pF', '电容,Capacitor,22 pF,±2 %,50 V,C0G,0201', '电容', '0201', '22pF']
+ BOM is : C4424,nc,
+
+2018-08-24 10:55:01,016 - main.py[line:76] - INFO: difference:
+ SCH is :['C4409', 'ABA220GJACCX', '22pF', '电容,Capacitor,22 pF,±2 %,50 V,C0G,0201', '电容', '0201', '22pF']
+ BOM is : C4409,nc,
+
+2018-08-24 10:55:01,017 - main.py[line:76] - INFO: difference:
+ SCH is :['C4406', 'ABA220GJACCX', '22pF', '电容,Capacitor,22 pF,±2 %,50 V,C0G,0201', '电容', '0201', '22pF']
+ BOM is : C4406,nc,
+
+2018-08-24 10:55:01,018 - main.py[line:76] - INFO: difference:
+ SCH is :['C4402', 'ABA220GJACCX', '22pF', '电容,Capacitor,22 pF,±2 %,50 V,C0G,0201', '电容', '0201', '22pF']
+ BOM is : C4402,nc,
+
+2018-08-24 10:55:01,020 - main.py[line:76] - INFO: difference:
+ SCH is :['C4339', 'ABA220GJACCX', '22pF', '电容,Capacitor,22 pF,±2 %,50 V,C0G,0201', '电容', '0201', '22pF']
+ BOM is : C4339,nc,
+
+2018-08-24 10:55:01,021 - main.py[line:76] - INFO: difference:
+ SCH is :['C4331', 'ABA220GJACCX', '22pF', '电容,Capacitor,22 pF,±2 %,50 V,C0G,0201', '电容', '0201', '22pF']
+ BOM is : C4331,nc,
+
+2018-08-24 10:55:01,023 - main.py[line:76] - INFO: difference:
+ SCH is :['C4302', 'ABA220GJACCX', '22pF', '电容,Capacitor,22 pF,±2 %,50 V,C0G,0201', '电容', '0201', '22pF']
+ BOM is : C4302,nc,
+
+2018-08-24 10:55:01,024 - main.py[line:76] - INFO: difference:
+ SCH is :['C4258', 'ABA220GJACCX', '22pF', '电容,Capacitor,22 pF,±2 %,50 V,C0G,0201', '电容', '0201', '22pF']
+ BOM is : C4258,nc,
+
+2018-08-24 10:55:01,024 - main.py[line:76] - INFO: difference:
+ SCH is :['C4238', 'ABA220GJACCX', '22pF', '电容,Capacitor,22 pF,±2 %,50 V,C0G,0201', '电容', '0201', '22pF']
+ BOM is : C4238,nc,
+
+2018-08-24 10:55:01,026 - main.py[line:76] - INFO: difference:
+ SCH is :['C4235', 'ABA220GJACCX', '22pF', '电容,Capacitor,22 pF,±2 %,50 V,C0G,0201', '电容', '0201', '22pF']
+ BOM is : C4235,nc,
+
+2018-08-24 10:55:01,027 - main.py[line:76] - INFO: difference:
+ SCH is :['C4234', 'ABA220GJACCX', '22pF', '电容,Capacitor,22 pF,±2 %,50 V,C0G,0201', '电容', '0201', '22pF']
+ BOM is : C4234,nc,
+
+2018-08-24 10:55:01,046 - main.py[line:76] - INFO: difference:
+ SCH is :['C4358', 'ABA270GGACCX', '27pF', '普通电容,Capacitor,27 pF,±2 %,25 V,C0G,0201', '普通电容', '0201', '27pF']
+ BOM is : C4358,nc,
+
+2018-08-24 10:55:01,049 - main.py[line:76] - INFO: difference:
+ SCH is :['C4202', 'ABA270GGACCX', '27pF', '普通电容,Capacitor,27 pF,±2 %,25 V,C0G,0201', '普通电容', '0201', '27pF']
+ BOM is : C4202,nc,
+
+2018-08-24 10:55:01,051 - main.py[line:76] - INFO: difference:
+ SCH is :['C4312', 'ABA270GGACCX', '27pF', '普通电容,Capacitor,27 pF,±2 %,25 V,C0G,0201', '普通电容', '0201', '27pF']
+ BOM is : C4312,nc,
+
+2018-08-24 10:55:01,053 - main.py[line:76] - INFO: difference:
+ SCH is :['C4341', 'ABA270GGACCX', '3.0 nH', '普通电容,Capacitor,27 pF,±2 %,25 V,C0G,0201', '普通电容', '0201', '3.0nH']
+ BOM is : C4341,2.4nh,0201
+
+2018-08-24 10:55:01,055 - main.py[line:76] - INFO: difference:
+ SCH is :['C4309', 'ABA270GGACCX', '27pF', '普通电容,Capacitor,27 pF,±2 %,25 V,C0G,0201', '普通电容', '0201', '27pF']
+ BOM is : C4309,nc,
+
+2018-08-24 10:55:01,056 - main.py[line:76] - INFO: difference:
+ SCH is :['C4344', 'ABA270GGACCX', '6.2nH', '普通电容,Capacitor,27 pF,±2 %,25 V,C0G,0201', '普通电容', '0201', '6.2nH']
+ BOM is : C4344,nc,
+
+2018-08-24 10:55:01,058 - main.py[line:76] - INFO: difference:
+ SCH is :['C4611', 'ABA330KGACCX', '', '普通电容,Capacitor,33 pF,±10 %,25 V,C0G,0201', '普通电容', '0201', '33pf']
+ BOM is : C4611,0,0201
+
+2018-08-24 10:55:01,062 - main.py[line:76] - INFO: difference:
+ SCH is :['C4434', 'ABA330KGACCX', '33pF', '普通电容,Capacitor,33 pF,±10 %,25 V,C0G,0201', '普通电容', '0201', '33pF']
+ BOM is : C4434,nc,
+
+2018-08-24 10:55:01,065 - main.py[line:76] - INFO: difference:
+ SCH is :['C4359', 'ABA330KGACCX', '1.5nH', '普通电容,Capacitor,33 pF,±10 %,25 V,C0G,0201', '普通电容', '0201', '1.5nH']
+ BOM is : C4359,nc,
+
+2018-08-24 10:55:01,065 - main.py[line:76] - INFO: difference:
+ SCH is :['C4403', 'ABA330KGACCX', '33pF', '普通电容,Capacitor,33 pF,±10 %,25 V,C0G,0201', '普通电容', '0201', '33pF']
+ BOM is : C4403,nc,
+
+2018-08-24 10:55:01,066 - main.py[line:76] - INFO: difference:
+ SCH is :['C4404', 'ABA330KGACCX', '33pF', '普通电容,Capacitor,33 pF,±10 %,25 V,C0G,0201', '普通电容', '0201', '33pF']
+ BOM is : C4404,nc,
+
+2018-08-24 10:55:01,072 - main.py[line:76] - INFO: difference:
+ SCH is :['C4124', 'ABA330KGACCX', '33pF', '普通电容,Capacitor,33 pF,±10 %,25 V,C0G,0201', '普通电容', '0201', '33pF']
+ BOM is : C4124,nc,
+
+2018-08-24 10:55:01,072 - main.py[line:76] - INFO: difference:
+ SCH is :['C4122', 'ABA330KGACCX', '33pF', '普通电容,Capacitor,33 pF,±10 %,25 V,C0G,0201', '普通电容', '0201', '33pF']
+ BOM is : C4122,nc,
+
+2018-08-24 10:55:01,074 - main.py[line:76] - INFO: difference:
+ SCH is :['C4601', 'ABA330KGACCX', '', '普通电容,Capacitor,33 pF,±10 %,25 V,C0G,0201', '普通电容', '0201', '33pf']
+ BOM is : C4601,1nh,0201
+
+2018-08-24 10:55:01,074 - main.py[line:76] - INFO: difference:
+ SCH is :['C3413', 'ABA473KEB0CX', '47nF_16V', '电容,Capacitor,47 nF,±10 %,16 V,X7R,0402,N/A,CC0402KRX7R7BB473,YAGEO', '电容', '0402', '47nF_16V']
+ BOM is : C3413,47nf,0402
+
+2018-08-24 10:55:01,086 - main.py[line:76] - INFO: difference:
+ SCH is :['C3407', 'ABA475MEBXCX', '4.7uF', '普通电容,Capacitor,4.7 uF,±20 %,16 V,X5R,0402', '普通电容', '0402', '4.7uF']
+ BOM is : C3407,nc,
+
+2018-08-24 10:55:01,090 - main.py[line:76] - INFO: difference:
+ SCH is :['L4605', 'ACA01TBAC0CX', 'NC', '电感,Inductor,1 nH,±0.1 nH,0201,Film', '电感', '0201', 'NC']
+ BOM is : L4605,0.3pf,0201
+
+2018-08-24 10:55:01,091 - main.py[line:76] - INFO: difference:
+ SCH is :['L4621', 'ACA01TCAC0CX', '', '电感,Inductor,1 nH,±0.2 nH,0201,Film', '电感', '0201', '1nh']
+ BOM is : L4621,0,0201
+
+2018-08-24 10:55:01,092 - main.py[line:76] - INFO: difference:
+ SCH is :['L4330', 'ACA01TCAC0CX', '0.8nH', '电感,Inductor,1 nH,±0.2 nH,0201,Film', '电感', '0201', '0.8nH']
+ BOM is : L4330,nc,
+
+2018-08-24 10:55:01,093 - main.py[line:76] - INFO: difference:
+ SCH is :['L4620', 'ACA01TCAC0CX', '', '电感,Inductor,1 nH,±0.2 nH,0201,Film', '电感', '0201', '1nh']
+ BOM is : L4620,0,0201
+
+2018-08-24 10:55:01,094 - main.py[line:76] - INFO: difference:
+ SCH is :['L4426', 'ACA01TCAC0CX', '1nH', '电感,Inductor,1 nH,±0.2 nH,0201,Film', '电感', '0201', '1nH']
+ BOM is : L4426,nc,
+
+2018-08-24 10:55:01,095 - main.py[line:76] - INFO: difference:
+ SCH is :['L4614', 'ACA01TCAC0CX', '', '电感,Inductor,1 nH,±0.2 nH,0201,Film', '电感', '0201', '1nh']
+ BOM is : L4614,0,0201
+
+2018-08-24 10:55:01,096 - main.py[line:76] - INFO: difference:
+ SCH is :['L4604', 'ACA01TCAC0CX', '', '电感,Inductor,1 nH,±0.2 nH,0201,Film', '电感', '0201', '1nh']
+ BOM is : L4604,0,0201
+
+2018-08-24 10:55:01,097 - main.py[line:76] - INFO: difference:
+ SCH is :['L4609', 'ACA10THAC0CX', '', '电感,Inductor,10 nH,±3 %,0201,Film', '电感', '0201', '10nh']
+ BOM is : L4609,nc,
+
+2018-08-24 10:55:01,098 - main.py[line:76] - INFO: difference:
+ SCH is :['L4618', 'ACA10THAC0CX', '', '电感,Inductor,10 nH,±3 %,0201,Film', '电感', '0201', '10nh']
+ BOM is : L4618,nc,
+
+2018-08-24 10:55:01,100 - main.py[line:76] - INFO: difference:
+ SCH is :['L4619', 'ACA10THAC0CX', '', '电感,Inductor,10 nH,±3 %,0201,Film', '电感', '0201', '10nh']
+ BOM is : L4619,nc,
+
+2018-08-24 10:55:01,102 - main.py[line:76] - INFO: difference:
+ SCH is :['L4610', 'ACA10THAC0CX', '', '电感,Inductor,10 nH,±3 %,0201,Film', '电感', '0201', '10nh']
+ BOM is : L4610,5.6nh,0201
+
+2018-08-24 10:55:01,103 - main.py[line:76] - INFO: difference:
+ SCH is :['L4625', 'ACA12HBAA3CX', '', '电感,Inductor,1.2 nH,±0.1 nH,0201,MultiLayer', '电感', '0201', '1.2nh']
+ BOM is : L4625,1.5nh,0201
+
+2018-08-24 10:55:01,105 - main.py[line:76] - INFO: difference:
+ SCH is :['L4626', 'ACA15HBAC0CX', '', '电感,Inductor,1.5 nH,±0.1 nH,0201,Film', '电感', '0201', '1.5nh']
+ BOM is : L4626,nc,
+
+2018-08-24 10:55:01,109 - main.py[line:76] - INFO: difference:
+ SCH is :['L4323', 'ACA18THAC0CX', 'NC', '电感,Inductor,18 nH,±3 %,0201,Film', '电感', '0201', 'NC']
+ BOM is : L4323,9.1nh,0201
+
+2018-08-24 10:55:01,111 - main.py[line:76] - INFO: difference:
+ SCH is :['L4204', 'ACA18THAC0CX', 'NC', '电感,Inductor,18 nH,±3 %,0201,Film', '电感', '0201', 'NC']
+ BOM is : L4204,0.3pf,0201
+
+2018-08-24 10:55:01,116 - main.py[line:76] - INFO: difference:
+ SCH is :['L4401', 'ACA18THAC0CX', 'NC', '电感,Inductor,18 nH,±3 %,0201,Film', '电感', '0201', 'NC']
+ BOM is : L4401,1pf,0201
+
+2018-08-24 10:55:01,123 - main.py[line:76] - INFO: difference:
+ SCH is :['L4245', 'ACA18THAC0CX', '18nH', '电感,Inductor,18 nH,±3 %,0201,Film', '电感', '0201', '18nH']
+ BOM is : L4245,nc,
+
+2018-08-24 10:55:01,125 - main.py[line:76] - INFO: difference:
+ SCH is :['L4439', 'ACA18THAC0CX', '18nH', '电感,Inductor,18 nH,±3 %,0201,Film', '电感', '0201', '18nH']
+ BOM is : L4439,nc,
+
+2018-08-24 10:55:01,126 - main.py[line:76] - INFO: difference:
+ SCH is :['L4601', 'ACA18THAC0CX', 'NC', '电感,Inductor,18 nH,±3 %,0201,Film', '电感', '0201', 'NC']
+ BOM is : L4601,0.5pf,0201
+
+2018-08-24 10:55:01,127 - main.py[line:76] - INFO: difference:
+ SCH is :['L4243', 'ACA18THAC0CX', '12nH', '电感,Inductor,18 nH,±3 %,0201,Film', '电感', '0201', '12nH']
+ BOM is : L4243,nc,
+
+2018-08-24 10:55:01,129 - main.py[line:76] - INFO: difference:
+ SCH is :['L4627', 'ACA18THAC0CX', 'NC', '电感,Inductor,18 nH,±3 %,0201,Film', '电感', '0201', 'NC']
+ BOM is : L4627,0.3pf,0201
+
+2018-08-24 10:55:01,131 - main.py[line:76] - INFO: difference:
+ SCH is :['L4629', 'ACA18THAC0CX', 'NC', '电感,Inductor,18 nH,±3 %,0201,Film', '电感', '0201', 'NC']
+ BOM is : L4629,0.2pf,0201
+
+2018-08-24 10:55:01,134 - main.py[line:76] - INFO: difference:
+ SCH is :['L4313', 'ACA18THAC0CX', '9.1 nH', '电感,Inductor,18 nH,±3 %,0201,Film', '电感', '0201', '9.1nH']
+ BOM is : L4313,4.3nh,0201
+
+2018-08-24 10:55:01,136 - main.py[line:76] - INFO: difference:
+ SCH is :['L4425', 'ACA22HBAC0CX', '2.2nH', '电感,Inductor,2.2 nH,±0.1 nH,0201,Film', '电感', '0201', '2.2nH']
+ BOM is : L4425,nc,
+
+2018-08-24 10:55:01,137 - main.py[line:76] - INFO: difference:
+ SCH is :['L4427', 'ACA22THAC0CX', '22nH', '电感,Inductor,22 nH,±3 %,0201,Film', '电感', '0201', '22nH']
+ BOM is : L4427,12nh,0201
+
+2018-08-24 10:55:01,139 - main.py[line:76] - INFO: difference:
+ SCH is :['L4244', 'ACA22THAC0CX', '12nH', '电感,Inductor,22 nH,±3 %,0201,Film', '电感', '0201', '12nH']
+ BOM is : L4244,nc,
+
+2018-08-24 10:55:01,140 - main.py[line:76] - INFO: difference:
+ SCH is :['L4444', 'ACA27HBAC0CX', '2.7nH', '电感,Inductor,2.7 nH,±0.1 nH,0201,Film', '电感', '0201', '2.7nH']
+ BOM is : L4444,nc,
+
+2018-08-24 10:55:01,141 - main.py[line:76] - INFO: difference:
+ SCH is :['L4438', 'ACA27HBAC0CX', '2.7nH', '电感,Inductor,2.7 nH,±0.1 nH,0201,Film', '电感', '0201', '2.7nH']
+ BOM is : L4438,nc,
+
+2018-08-24 10:55:01,143 - main.py[line:76] - INFO: difference:
+ SCH is :['L4301', 'ACA27HBAC0CX', '3.7nH', '电感,Inductor,2.7 nH,±0.1 nH,0201,Film', '电感', '0201', '3.7nH']
+ BOM is : L4301,nc,
+
+2018-08-24 10:55:01,145 - main.py[line:76] - INFO: difference:
+ SCH is :['L4220', 'ACA27HBAC0CX', '4.3nH', '电感,Inductor,2.7 nH,±0.1 nH,0201,Film', '电感', '0201', '4.3nH']
+ BOM is : L4220,nc,
+
+2018-08-24 10:55:01,146 - main.py[line:76] - INFO: difference:
+ SCH is :['L4303', 'ACA33HBAC0CX', '3.3nH', '电感,Inductor,3.3 nH,±0.1 nH,0201,Film', '电感', '0201', '3.3nH']
+ BOM is : L4303,nc,
+
+2018-08-24 10:55:01,147 - main.py[line:76] - INFO: difference:
+ SCH is :['L4307', 'ACA33HCAC0CX', '3.7nH', '电感,Inductor,3.3 nH,±0.2 nH,0201,Film', '电感', '0201', '3.7nH']
+ BOM is : L4307,nc,
+
+2018-08-24 10:55:01,148 - main.py[line:76] - INFO: difference:
+ SCH is :['L4217', 'ACA33HCAC0CX', '3.3nH', '电感,Inductor,3.3 nH,±0.2 nH,0201,Film', '电感', '0201', '3.3nH']
+ BOM is : L4217,2.4nh,0201
+
+2018-08-24 10:55:01,149 - main.py[line:76] - INFO: difference:
+ SCH is :['L4308', 'ACA33HCAC0CX', '3.3nH', '电感,Inductor,3.3 nH,±0.2 nH,0201,Film', '电感', '0201', '3.3nH']
+ BOM is : L4308,nc,
+
+2018-08-24 10:55:01,152 - main.py[line:76] - INFO: difference:
+ SCH is :['L4258', 'ACA39HBAC0CX', '3.9nH', '电感,Inductor,3.9 nH,±0.1 nH,0201,Film', '电感', '0201', '3.9nH']
+ BOM is : L4258,nc,
+
+2018-08-24 10:55:01,154 - main.py[line:76] - INFO: difference:
+ SCH is :['L4257', 'ACA51HHAC0CX', '5.1nH', '电感,Inductor,5.1 nH,±3 %,0201,Film', '电感', '0201', '5.1nH']
+ BOM is : L4257,nc,
+
+2018-08-24 10:55:01,157 - main.py[line:76] - INFO: difference:
+ SCH is :['L4412', 'ACA51HHAC0CX', '5.1nH', '电感,Inductor,5.1 nH,±3 %,0201,Film', '电感', '0201', '5.1nH']
+ BOM is : L4412,nc,
+
+2018-08-24 10:55:01,160 - main.py[line:76] - INFO: difference:
+ SCH is :['L4215', 'ACA82HHAC0CX', '7.1nH', '电感,Inductor,8.2 nH,±3 %,0201,Film', '电感', '0201', '7.1nH']
+ BOM is : L4215,6.8nh,0201
+
+2018-08-24 10:55:01,161 - main.py[line:76] - INFO: difference:
+ SCH is :['L4212', 'ACA82HHAC0CX', '6.2nH', '电感,Inductor,8.2 nH,±3 %,0201,Film', '电感', '0201', '6.2nH']
+ BOM is : L4212,nc,
+
+2018-08-24 10:55:01,168 - main.py[line:90] - INFO: difference:
+ SCH is :['845', 'L4302', 'ACD0000031CX', '1.5uH', '线圈,Power Choke Coil,1.5 uH,±20 %,DCR=0.095 ohm,2200 mA,N/A', '线圈', 'None', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,171 - main.py[line:90] - INFO: difference:
+ SCH is :['846', 'FL4413', 'AEA0000263CX', '', '滤波器,Saw Filter,GSM850/Band 5 Rx,881.5 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,173 - main.py[line:90] - INFO: difference:
+ SCH is :['847', 'FL4212', 'AEA0000264CX', '', '滤波器,Saw Filter,For Band2/Unbalanced,1960 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,174 - main.py[line:90] - INFO: difference:
+ SCH is :['848', 'FL4303', 'AEA0000268CX', '', '滤波器,Saw Filter,FOR UMTS Band40 Tx,2300-2400 MHz,1.35×1.05×0.5 mm,5 PINs', '滤波器', 'None', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,175 - main.py[line:90] - INFO: difference:
+ SCH is :['849', 'FL4305', 'AEA0000270CX', '', '滤波器,Saw Filter,FOR UMTS Band 38 Tx,2595 MHz,1.35×1.05×0.5 mm,5 PINs', '滤波器', 'None', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,177 - main.py[line:90] - INFO: difference:
  SCH is :['850', 'FL4406', 'AEA0000273CX', '', '滤波器,Saw Filter,FOR GSM900/BAND8 Rx,942.5 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
  BOM is : AEA0000456CX,滤波器,Saw Filter,RxD SAW,GSM900/EGSM Rx,UMTS B8,942.5 MHz,1.1×0.9×0.5 mm,5 PINs,N/A,SFH942AA002,WISOL,
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,179 - main.py[line:90] - INFO: difference:
+ SCH is :['852', 'FL4101', 'AEA0000277CX', '', '滤波器,SAW Single Filter,for Band7 / Unbalanced,2655 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,180 - main.py[line:90] - INFO: difference:
  SCH is :['853', 'FL4404', 'AEA0000277CX', '', '滤波器,SAW Single Filter,for Band7 / Unbalanced,2655 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
  BOM is : AEA0000419CX,滤波器,Saw Filter,LTE Band 7 Rx,2655 MHz,1.1×0.9×0.5 mm,5 PINs,N/A,SFHG56BA002,WISOL
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,181 - main.py[line:90] - INFO: difference:
  SCH is :['854', 'FL4206', 'AEA0000370CX', '', '滤波器,Saw Filter,Low Pass,High frequency,1681 MHz,1.6×0.8×0.65 mm,3 PINs', '滤波器', 'None', '']
  BOM is : AED0000190CX,低通滤波器,Low Pass Filter,LTCC Multi Layer Ceramic,0603,673-2690 MHz,1.6×0.8×0.65 mm,3 PINs,N/A,RFLPF1608060F18Q1C,WALSIN
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,183 - main.py[line:90] - INFO: difference:
  SCH is :['855', 'FL4207', 'AEA0000370CX', '', '滤波器,Saw Filter,Low Pass,High frequency,1681 MHz,1.6×0.8×0.65 mm,3 PINs', '滤波器', 'None', '']
  BOM is : AED0000190CX,低通滤波器,Low Pass Filter,LTCC Multi Layer Ceramic,0603,673-2690 MHz,1.6×0.8×0.65 mm,3 PINs,N/A,RFLPF1608060F18Q1C,WALSIN
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,184 - main.py[line:90] - INFO: difference:
  SCH is :['856', 'FL4408', 'AEA0000379CX', '', '滤波器,SAW Rx filter,WCDMA Band I/Band IV/Band X,2140 MHz,1.1×0.9×0.45 mm,5 PINs', '滤波器', 'None', '']
  BOM is : AEA0000394CX,滤波器,Saw Filter,UMTS Band 1,2110-2170 MHz,1.1×0.9×0.5 mm,5 PINs,N/A,SFHG40AA002,WISOL
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,185 - main.py[line:90] - INFO: difference:
+ SCH is :['857', 'FL4401', 'AEA0000411CX', '', '滤波器,Saw Filter,Band38/Unbalanced,2595 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,187 - main.py[line:90] - INFO: difference:
+ SCH is :['858', 'FL4304', 'AEA0000414CX', '', '滤波器,Saw Filter,for Band41/Unbalanced,2593 MHz,2×1.6×0.7 mm,3 PINs', '滤波器', 'None', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,189 - main.py[line:90] - INFO: difference:
  SCH is :['860', 'FL4402', 'AEA0000417CX', '', '滤波器,Saw Filter,LTE Band40 Rx,2350 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
  BOM is : ,
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,190 - main.py[line:90] - INFO: difference:
+ SCH is :['861', 'FL4213', 'AEA0000516CX', '', '滤波器,Saw Filter,for Band32/Unbalanced,1474 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,191 - main.py[line:90] - INFO: difference:
+ SCH is :['862', 'FL4403', 'AEA0000516CX', '', '滤波器,Saw Filter,for Band32/Unbalanced,1474 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,193 - main.py[line:90] - INFO: difference:
  SCH is :['863', 'FL4210', 'AEB0000292CX', '', '双工器,SAW Duplexer,B3 Unbalanced,1747.5 MHz/1842.5 MHz,1.8×1.4×0.6 mm,8 PINs', '双工器', 'None', '']
  BOM is : AEB0000413CX,双工器,SAW Duplexer,LTE Band3,1747.5 MHz/1842.5 MHz,1.8×1.4×0.58 mm,8 PINs,N/A,SFXG47AYM02,WISOL
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,194 - main.py[line:90] - INFO: difference:
  SCH is :['864', 'FL4209', 'AEB0000293CX', '', '双工器,SAW Duplexer,B1 Unbalanced,1950 MHz/2140 MHz,1.8×1.4×0.6 mm,8 PINs', '双工器', 'None', '']
  BOM is : AEB0000429CX,SAW Duplexer,LTE Band 1,1950 MHz/2140 MHz,1.8×1.4×0.65 mm,8 PINs,SFXG50FY902,WISOL
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,196 - main.py[line:90] - INFO: difference:
  SCH is :['865', 'FL4205', 'AEB0000297CX', '', '双工器,SAW Duplexer,Band8/Unbalanced,897.5 MHz/942.5 MHz,1.8×1.4×0.6 mm,8 PINs', '双工器', 'None', '']
  BOM is : AEB0000346CX,双工器,SAW Duplexer,LTE Band 8,897.5/942.5 MHz,1.8×1.4×0.58 mm,8 PINs,N/A,SFX897BYF02,WISOL
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,197 - main.py[line:90] - INFO: difference:
  SCH is :['866', 'FL4202', 'AEB0000300CX', '', '双工器,SAW Duplexer,Band7/Unbalanced/LR,2535 MHz/2655 MHz,1.8×1.4×0.6 mm,8 PINs', '双工器', 'None', '']
  BOM is : AEB0000408CX,双工器,SAW Duplexer,LTE B7,2535 MHz/2655 MHz,1.8×1.4×0.57 mm,8 PINs,N/A,SD18-2535R8UUC1,KYOCERA
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,198 - main.py[line:90] - INFO: difference:
+ SCH is :['867', 'FL4204', 'AEB0000347CX', '', '双工器,SAW Duplexer,Tentative,824-849 MHz/869-894 MHz,1.8×1.4×0.55 mm,8 PINs', '双工器', 'None', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,200 - main.py[line:90] - INFO: difference:
  SCH is :['869', 'FL4201', 'AED0000085CX', '', '低通滤波器,Low pass filter,N/A,698-960 MHz,1.6×0.8×0.7 mm,6 PINs,N/A', '低通滤波器', 'None', '']
  BOM is : AED0000142CX,低通滤波器,Low Pass Filter,Multilayer,698-960 MHz,1.6×0.8×0.7 mm,6 PINs,N/A,RFLPF1608060Y18Q1C,WALSIN
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,201 - main.py[line:90] - INFO: difference:
  SCH is :['870', 'FL4208', 'AED0000127CX', '', '分频器,Diplexer,Multilayer,699-960 MHz/1710-2690 MHz,2.5×2×1.0 mm,8 PINs,N/A', '分频器', 'None', '']
  BOM is : AED0000279CX,Diplexer,Multilayer,698-960 MHz/1710-2690 MHz,2.5×2×1 mm,8 PINs,DPX252690DT-5031A1,TDK
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,203 - main.py[line:90] - INFO: difference:
  SCH is :['871', 'FL4405', 'AED0000127CX', '', '分频器,Diplexer,Multilayer,699-960 MHz/1710-2690 MHz,2.5×2×1.0 mm,8 PINs,N/A', '分频器', 'None', '']
  BOM is : AED0000279CX,Diplexer,Multilayer,698-960 MHz/1710-2690 MHz,2.5×2×1 mm,8 PINs,DPX252690DT-5031A1,TDK
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,204 - main.py[line:90] - INFO: difference:
  SCH is :['872', 'FL4203', 'AED0000129CX', '', '巴伦,Balun,Multilayer,673-2700 MHz,1.6×0.8×0.6 mm,6 PINs,N/A', '巴伦', 'None', '']
  BOM is : AED0000201CX,巴伦,BALUN,LTCC Multi Layer Chip Balun,673 ~ 2700 MHz,1.6 X 0.8X 0.6 mm,6 PINs,N/A,RFBLN1608070F48Q1C,WALSIN
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,206 - main.py[line:90] - INFO: difference:
+ SCH is :['873', 'FL4603', 'AED0000133CX', '', '分频器,Diplexer,Multilayer,2400-2500 MHz/5150-5850 MHz,1×0.5×0.39 mm,4 PINs,N/A', '分频器', 'None', '']
+ BOM is : AED0000204CX,分频器,DIPLEXER,MULTILAYER CERAMIC,2.4 GHz/5 GHz,1×0.5×0.4 mm,4 PINs,N/A,RFDIP1005040L38Q1C,WALSIN
+
+2018-08-24 10:55:01,208 - main.py[line:90] - INFO: difference:
+ SCH is :['874', 'FL4604', 'AED0000133CX', '', '分频器,Diplexer,Multilayer,2400-2500 MHz/5150-5850 MHz,1×0.5×0.39 mm,4 PINs,N/A', '分频器', 'None', '']
+ BOM is : AED0000204CX,分频器,DIPLEXER,MULTILAYER CERAMIC,2.4 GHz/5 GHz,1×0.5×0.4 mm,4 PINs,N/A,RFDIP1005040L38Q1C,WALSIN
+
+2018-08-24 10:55:01,210 - main.py[line:90] - INFO: difference:
+ SCH is :['875', 'FL4606', 'AED0000216CX', '', '带通滤波器,BAW band-pass filter,WLAN/BT LTE Co-Existence,2.4 GHz,1.1×0.9×0.5 mm,5 PINs,N/A', '带通滤波器', 'None', '']
+ BOM is : AEA0000531CX,Saw Filter,2402.5-2481.5 MHz,1.1×0.9×0.5 mm,5 PINs,QM22249,QORVO
+
+2018-08-24 10:55:01,211 - main.py[line:90] - INFO: difference:
+ SCH is :['876', 'FL4605', 'AED0000216CX', '', '带通滤波器,BAW band-pass filter,WLAN/BT LTE Co-Existence,2.4 GHz,1.1×0.9×0.5 mm,5 PINs,N/A', '带通滤波器', 'None', '']
+ BOM is : AEA0000531CX,Saw Filter,2402.5-2481.5 MHz,1.1×0.9×0.5 mm,5 PINs,QM22249,QORVO
+
+2018-08-24 10:55:01,212 - main.py[line:90] - INFO: difference:
+ SCH is :['877', 'FL4602', 'AEE0000045CX', '', '耦合器,Coupler,Thin-Film Wide Band,2400-2500 MHz/4900-5149 MHz,0.65×0.5×0.25 mm,4 PINs', '耦合器', 'None', '']
+ BOM is : AEE0000049CX,耦合器,Coupler,Dual-band,2.4 GHz/5 GHz,0.65×0.5×0.3 mm,4 PINs,N/A,TFCPL0605030L18A1U,WALSIN
+
+2018-08-24 10:55:01,214 - main.py[line:90] - INFO: difference:
+ SCH is :['878', 'FL4601', 'AEE0000045CX', '', '耦合器,Coupler,Thin-Film Wide Band,2400-2500 MHz/4900-5149 MHz,0.65×0.5×0.25 mm,4 PINs', '耦合器', 'None', '']
+ BOM is : AEE0000049CX,耦合器,Coupler,Dual-band,2.4 GHz/5 GHz,0.65×0.5×0.3 mm,4 PINs,N/A,TFCPL0605030L18A1U,WALSIN
+
+2018-08-24 10:55:01,215 - main.py[line:90] - INFO: difference:
+ SCH is :['880', 'D4601', 'AFA0000204CX', '', '二极管,Diode,Very Low Capacitance,SOD-882,Uni-Directional', '二极管', 'None', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,220 - main.py[line:90] - INFO: difference:
+ SCH is :['887', 'T3404', 'AFD0000048CX', 'AFD0000055C1', '过压保护二极管(ESD),Transient Voltage Suppressor,300 W,N/A,12 V,DFN2020-3(SOT1061),Uni-Directional', '过压保护二极管(ESD)', 'None', '']
+ BOM is : AFD0000055CX,过压保护二极管(ESD),Transient Voltage Suppressors,Low clamping Voltage,1000 pF,12 V,DFN2×2-3L,Uni-Directional,2.1×2.1×0.65 mm,PTVSHC3N12VU,PRISEMI
+
+2018-08-24 10:55:01,225 - main.py[line:90] - INFO: difference:
+ SCH is :['899', 'Q5105', 'AHA0000132CX', 'AHA0000220C1', '场效应管,MOSFET,N Channel,370.0 mW,0.210 ohm,SOT-723,N/A', '场效应管', 'None', '']
+ BOM is : AHA0000220CX,MOSFET,N Channel,150 mW,9 ohm,SOT-723,PNM723T30V01,PRISEMI
+
+2018-08-24 10:55:01,226 - main.py[line:90] - INFO: difference:
+ SCH is :['900', 'Q5106', 'AHA0000132CX', 'AHA0000220C1', '场效应管,MOSFET,N Channel,370.0 mW,0.210 ohm,SOT-723,N/A', '场效应管', 'None', '']
+ BOM is : AHA0000220CX,MOSFET,N Channel,150 mW,9 ohm,SOT-723,PNM723T30V01,PRISEMI
+
+2018-08-24 10:55:01,227 - main.py[line:90] - INFO: difference:
+ SCH is :['901', 'Q5101', 'AHA0000132CX', 'AHA0000220C1', '场效应管,MOSFET,N Channel,370.0 mW,0.210 ohm,SOT-723,N/A', '场效应管', 'None', '']
+ BOM is : AHA0000220CX,MOSFET,N Channel,150 mW,9 ohm,SOT-723,PNM723T30V01,PRISEMI
+
+2018-08-24 10:55:01,229 - main.py[line:90] - INFO: difference:
+ SCH is :['902', 'Q5102', 'AHA0000132CX', 'AHA0000220C1', '场效应管,MOSFET,N Channel,370.0 mW,0.210 ohm,SOT-723,N/A', '场效应管', 'None', '']
+ BOM is : AHA0000220CX,MOSFET,N Channel,150 mW,9 ohm,SOT-723,PNM723T30V01,PRISEMI
+
+2018-08-24 10:55:01,230 - main.py[line:90] - INFO: difference:
+ SCH is :['903', 'Q5103', 'AHA0000132CX', 'AHA0000220C1', '场效应管,MOSFET,N Channel,370.0 mW,0.210 ohm,SOT-723,N/A', '场效应管', 'None', '']
+ BOM is : AHA0000220CX,MOSFET,N Channel,150 mW,9 ohm,SOT-723,PNM723T30V01,PRISEMI
+
+2018-08-24 10:55:01,231 - main.py[line:90] - INFO: difference:
+ SCH is :['904', 'Q5104', 'AHA0000132CX', 'AHA0000220C1', '场效应管,MOSFET,N Channel,370.0 mW,0.210 ohm,SOT-723,N/A', '场效应管', 'None', '']
+ BOM is : AHA0000220CX,MOSFET,N Channel,150 mW,9 ohm,SOT-723,PNM723T30V01,PRISEMI
+
+2018-08-24 10:55:01,233 - main.py[line:90] - INFO: difference:
+ SCH is :['905', 'Y3101', 'AJA1920017CX', '', '晶体,Crystal,19.2MHz,±12ppm,7 pF,2.5x2.0x0.8 mm,N/A', '晶体', 'None', '']
+ BOM is : AJA1920021CX,晶体,Crystal,19.2 MHz,±12 ppm,7 pF,2.5×2×1 mm,100 uW,N/A,X1E000291000100,EPSON
+
+2018-08-24 10:55:01,234 - main.py[line:90] - INFO: difference:
+ SCH is :['906', 'Y4601', 'AJA4800002CX', '', '晶体,Crystal,48 MHz,±20 ppm,7 pF,2×1.6×0.4 mm,100 uW', '晶体', 'None', '']
+ BOM is : AJA4800006CX,晶体,Crystal,48 MHz,±20 ppm,7 pF,2.05×1.65×0.45 mm,100 uW,N/A,1ZZHAE48000ZZ0C,KDS
+
+2018-08-24 10:55:01,241 - main.py[line:90] - INFO: difference:
+ SCH is :['920', 'U1101', 'AMA0001030CX', 'MDM9240-0', '基带芯片,Baseband Chipset,527-PSP,527 Balls,9.8×8.6×0.82 mm,0.35 mm,Non-Security', '基带芯片', 'None', '']
+ BOM is : AMA0001082CX,Baseband Chipset,527-PSP,527 Balls,9.8×8.6×0.82 mm,0.35 mm,Non-Security,MDM-9240-0-527PSP-MT-01-0,QUALCOMM
+
+2018-08-24 10:55:01,242 - main.py[line:90] - INFO: difference:
+ SCH is :['921', 'U4501', 'AMB0000073CX', '', 'WiFi/BT芯片,WiFi/BT IC,WLAN,172B WLNSP,6.02×4.89×0.57 mm,0.4 mm,Non-Security', 'WiFi/BT芯片', 'None', '']
+ BOM is :  AMB0000101CX,WiFi/BT芯片,WiFi/BT IC,WLAN,172B WLNSP,6.02×4.89×0.57 mm,0.4 mm,N/A,N/A,QCA-6174A-1-172BWLNSP-TR-0C-0,QUALCOMM 
+
+2018-08-24 10:55:01,243 - main.py[line:90] - INFO: difference:
+ SCH is :['922', 'U2101', 'AMD0000277CX', '2+2', '内存芯片,Memory,MCP(NAND+LPDDR2),4Gb+2Gb,162-Ball VFBGA,13×11.5×0.9 mm,0.5 mm,N/A', '内存芯片', 'None', '']
+ BOM is : AMD0000601CX,Memory,NAND+LPDDR2,2 Gb+2 Gb,162-Ball VFBGA,8×10.5×1 mm,0.5 mm,1.2 V/1.8 V,NM1282KSLAXAL-3B,NANYA
+
+2018-08-24 10:55:01,245 - main.py[line:90] - INFO: difference:
+ SCH is :['925', 'U4602', 'AMM0000189CX', '', '前端模块,Front End Module,5 GHz Wi-Fi FEM,11-Pin,2×1.7×0.303 mm', '前端模块', 'None', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,247 - main.py[line:90] - INFO: difference:
+ SCH is :['926', 'U4601', 'AMM0000189CX', '', '前端模块,Front End Module,5 GHz Wi-Fi FEM,11-Pin,2×1.7×0.303 mm', '前端模块', 'None', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,248 - main.py[line:90] - INFO: difference:
  SCH is :['928', 'U4101', 'AMR0000065CX', '', '无线收发芯片,Transceiver Chipset,106B WLPSP,3.83×3.83×0.55 mm,0.35 mm', '无线收发芯片', 'None', '']
  BOM is : AMR0000089CX,无线收发芯片,Transceiver Chipset,106B WLPSP,3.83×3.83×0.55 mm,0.35 mm,N/A,WTR-3925-2-106BWLPSP-HR-03-1,QUALCOMM
 
-WARNING:root:wrong:
+2018-08-24 10:55:01,250 - main.py[line:90] - INFO: difference:
  SCH is :['929', 'U4102', 'AMR0000069CX', '', '无线收发芯片,Transceiver Chipset,60 WLNSP,3.22×3.22×0.57 mm,0.4 mm', '无线收发芯片', 'None', '']
  BOM is : AMR0000084CX,无线收发芯片,Transceiver Chipset,60 WLNSP,3.22×3.22×0.57 mm,0.4 mm,N/A,WTR-4905-1-60WLNSP-TR-01-1,QUALCOMM
 
-WARNING:root:wrong:
- SCH is :['932', 'U4306', 'AMY0000685CX', '', '功率放大芯片,PA Power Management IC,1.7×1.57×0.55 mm,15B WLNSP,N/A', '功率放大芯片', 'None', '']
+2018-08-24 10:55:01,252 - main.py[line:90] - INFO: difference:
+ SCH is :['932', 'U4306', 'AMY0000685CX', '', 'PA Power Management IC,1.7×1.57×0.55 mm,15B WLNSP', 'PA Power Management IC', 'None', '']
  BOM is : ,
 
-WARNING:root:
-fiducial 本地数据库上未找到，在PLM上查找
+2018-08-24 10:55:01,254 - main.py[line:90] - INFO: difference:
+ SCH is :['933', 'U4701', 'AMY0000744CX', 'AMY0000717C1', '降压型稳压器,Step Down DC/DC Regulator,3.1×3×1 mm,TSOT23-5,1 A', '降压型稳压器', 'None', '']
+ BOM is : AMY0000717CX,降压型稳压器,Step Down DC/DC Regulator,3.1×3×1.4 mm,SOT23-5,N/A,SY8089AAAC,SILERGY
 
-WARNING:root:网站连接失败
-WARNING:root:
-SIT001_96_PT 本地数据库上未找到，在PLM上查找
+2018-08-24 10:55:01,255 - main.py[line:90] - INFO: difference:
+ SCH is :['935', 'U5901', 'AMY0001084CX', '', '升压转换芯片,DC-DC Boost Converter,2.5×2.5×1 mm,VQFN(9),N/A', '升压转换芯片', 'None', '']
+ BOM is : AMY0001466CX,升压转换芯片,DC-DC Boost Converter,2.50×2.50×1.00 mm,VQFN(9),N/A,TPS61235PRWLR,TI
 
-WARNING:root:网站连接失败
-WARNING:root:数量与位号个数不一致： 
-['1', 'BAB1M3000DCX', 'BAB1M3000DC1', '', 'TRIPOD', 'Main PCB,WIFI12,D Version,3+4+3 Layers,76.57×61.05×0.8 mm,BAB1M3000CC1,TRIPOD', '1', '', 'PCB', '', ''] 
- 数量是：1
- 位号个数是:0
-
-WARNING:root:数量与位号个数不一致： 
-['142', 'CPE0000004CX', 'CPE0000004C0', '', '', 'PCBA标签纸,PCBA Label,,20×11mm,,,,,, ', '1', '', 'Label', '', ''] 
- 数量是：1
- 位号个数是:0
-
-ERROR:root:
-UNIQUE constraint failed: temp.ref
-('#ARE0040021CX', '电池连接器,battery connector,Over PCB,4.0 PINs,3.1 mm,12.4x4.3xH5.4mm,With POST+W/O DIP,N/A,WKBAV006-G41P,JTCONN', '电池连接器', 'None', '', 'J3402')
-
-WARNING:root:wrong:
- SCH is :['46', 'R4207', 'AAA0000JA8CX', '0', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
- BOM is : R4207,0201,3.6nh
-
-WARNING:root:wrong:
- SCH is :['71', 'R4406', 'AAA0000JA8CX', '0', '电阻,Resistor,0 ohm,±5 %,1/20 W,0201,N/A', '电阻', '0201', '0']
- BOM is : R4406,0201,4.3nh
-
-WARNING:root:wrong:
- SCH is :['121', 'R4307', 'AAA0000JC6CX', '0R', '电阻,Resistor,0 ohm,±5 %,1/10 W,0603,N/A', '电阻', '0603', '0R']
- BOM is : R4307,None,普通电阻resistor0±1%1/10w06031.75×0.95×0.5mmrs-03000ftfenghua
-
-WARNING:root:wrong:
- SCH is :['216', 'R4304', 'AAC0104FB3CX', '100K_NTC', '热敏电阻,NTC Chip Thermistor,100K ohm,±1 %,35 mW,0402', '热敏电阻', '0402', '100K_NTC']
- BOM is : R4304,0402,100k
-
-WARNING:root:wrong:
- SCH is :['254', 'C4427', 'ABA24FBJACCX', '2.4pF', '电容,Capacitor,2.4 pF,±0.1 pF,50 V,C0G,0201', '电容', '0201', '2.4pF']
- BOM is : C4427,,nc
-
-WARNING:root:wrong:
- SCH is :['274', 'C4214', 'ABA56FBJACCX', '39pF', '普通电容,Capacitor,5.6 pF,±0.1 pF,50 V,C0G,0201', '普通电容', '0201', '39pF']
- BOM is : C4214,0201,33pf
-
-WARNING:root:wrong:
- SCH is :['528', 'C4244', 'ABA120JJACCX', '68pF', '电容,Capacitor,12 pF,±5 %,50 V,C0G,0201', '电容', '0201', '68pF']
- BOM is : C4244,0201,33pf
-
-WARNING:root:wrong:
- SCH is :['616', 'C4341', 'ABA270GGACCX', '3.0 nH', '普通电容,Capacitor,27 pF,±2 %,25 V,C0G,0201', '普通电容', '0201', '3.0nH']
- BOM is : C4341,0201,3nh
-
-WARNING:root:wrong:
- SCH is :['770', 'L4243', 'ACA18THAC0CX', 'NC', '电感,Inductor,18 nH,±3 %,0201,Film', '电感', '0201', 'NC']
- BOM is : L4243,0201,12nh
-
-WARNING:root:wrong:
- SCH is :['830', 'L4215', 'ACA82HHAC0CX', '7.1nH', '电感,Inductor,8.2 nH,±3 %,0201,Film', '电感', '0201', '7.1nH']
- BOM is : L4215,0201,6.8nh
-
-WARNING:root:wrong:
- SCH is :['850', 'FL4406', 'AEA0000273CX', '', '滤波器,Saw Filter,FOR GSM900/BAND8 Rx,942.5 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
- BOM is : AEA0000456CX,滤波器,Saw Filter,RxD SAW,GSM900/EGSM Rx,UMTS B8,942.5 MHz,1.1×0.9×0.5 mm,5 PINs,N/A,SFH942AA002,WISOL,
-
-WARNING:root:wrong:
- SCH is :['853', 'FL4404', 'AEA0000277CX', '', '滤波器,SAW Single Filter,for Band7 / Unbalanced,2655 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
- BOM is : AEA0000419CX,滤波器,Saw Filter,LTE Band 7 Rx,2655 MHz,1.1×0.9×0.5 mm,5 PINs,N/A,SFHG56BA002,WISOL
-
-WARNING:root:wrong:
- SCH is :['854', 'FL4206', 'AEA0000370CX', '', '滤波器,Saw Filter,Low Pass,High frequency,1681 MHz,1.6×0.8×0.65 mm,3 PINs', '滤波器', 'None', '']
- BOM is : AED0000190CX,低通滤波器,Low Pass Filter,LTCC Multi Layer Ceramic,0603,673-2690 MHz,1.6×0.8×0.65 mm,3 PINs,N/A,RFLPF1608060F18Q1C,WALSIN
-
-WARNING:root:wrong:
- SCH is :['855', 'FL4207', 'AEA0000370CX', '', '滤波器,Saw Filter,Low Pass,High frequency,1681 MHz,1.6×0.8×0.65 mm,3 PINs', '滤波器', 'None', '']
- BOM is : AED0000190CX,低通滤波器,Low Pass Filter,LTCC Multi Layer Ceramic,0603,673-2690 MHz,1.6×0.8×0.65 mm,3 PINs,N/A,RFLPF1608060F18Q1C,WALSIN
-
-WARNING:root:wrong:
- SCH is :['856', 'FL4408', 'AEA0000379CX', '', '滤波器,SAW Rx filter,WCDMA Band I/Band IV/Band X,2140 MHz,1.1×0.9×0.45 mm,5 PINs', '滤波器', 'None', '']
- BOM is : AEA0000394CX,滤波器,Saw Filter,UMTS Band 1,2110-2170 MHz,1.1×0.9×0.5 mm,5 PINs,N/A,SFHG40AA002,WISOL
-
-WARNING:root:wrong:
- SCH is :['860', 'FL4402', 'AEA0000417CX', '', '滤波器,Saw Filter,LTE Band40 Rx,2350 MHz,1.1×0.9×0.5 mm,5 PINs', '滤波器', 'None', '']
+2018-08-24 10:55:01,257 - main.py[line:90] - INFO: difference:
+ SCH is :['936', 'U4304', 'AMY0001186CX', '', 'LTE低噪声放大芯片,LTE High band LNA,1.10x0.70x0.45mm,LGA,6-PIN,N/A', 'LTE低噪声放大芯片', 'None', '']
  BOM is : ,
 
-WARNING:root:wrong:
- SCH is :['863', 'FL4210', 'AEB0000292CX', '', '双工器,SAW Duplexer,B3 Unbalanced,1747.5 MHz/1842.5 MHz,1.8×1.4×0.6 mm,8 PINs', '双工器', 'None', '']
- BOM is : AEB0000413CX,双工器,SAW Duplexer,LTE Band3,1747.5 MHz/1842.5 MHz,1.8×1.4×0.58 mm,8 PINs,N/A,SFXG47AYM02,WISOL
+2018-08-24 10:55:01,258 - main.py[line:90] - INFO: difference:
+ SCH is :['937', 'U4303', 'AMY0001186CX', '', 'LTE低噪声放大芯片,LTE High band LNA,1.10x0.70x0.45mm,LGA,6-PIN,N/A', 'LTE低噪声放大芯片', 'None', '']
+ BOM is : ,
 
-WARNING:root:wrong:
- SCH is :['864', 'FL4209', 'AEB0000293CX', '', '双工器,SAW Duplexer,B1 Unbalanced,1950 MHz/2140 MHz,1.8×1.4×0.6 mm,8 PINs', '双工器', 'None', '']
- BOM is : AEB0000429CX,SAW Duplexer,LTE Band 1,1950 MHz/2140 MHz,1.8×1.4×0.65 mm,8 PINs,SFXG50FY902,WISOL
+2018-08-24 10:55:01,262 - main.py[line:90] - INFO: difference:
+ SCH is :['940', 'U3402', 'AMY0001506CX', 'AMY0001506C1', 'Over-Voltage Protection Swich,1.16×1.65×0.64 mm,WLCSP-12', 'Over-Voltage Protection Swich', 'None', '']
+ BOM is : ,
 
-WARNING:root:wrong:
- SCH is :['865', 'FL4205', 'AEB0000297CX', '', '双工器,SAW Duplexer,Band8/Unbalanced,897.5 MHz/942.5 MHz,1.8×1.4×0.6 mm,8 PINs', '双工器', 'None', '']
- BOM is : AEB0000346CX,双工器,SAW Duplexer,LTE Band 8,897.5/942.5 MHz,1.8×1.4×0.58 mm,8 PINs,N/A,SFX897BYF02,WISOL
+2018-08-24 10:55:01,264 - main.py[line:90] - INFO: difference:
+ SCH is :['943', 'U4205', 'AMY0001539CX', '', 'SPDT Switch,1.1×0.7×0.45 mm,6-lead DFN,for 3G/4G', 'SPDT Switch', 'None', '']
+ BOM is : ,
 
-WARNING:root:wrong:
- SCH is :['866', 'FL4202', 'AEB0000300CX', '', '双工器,SAW Duplexer,Band7/Unbalanced/LR,2535 MHz/2655 MHz,1.8×1.4×0.6 mm,8 PINs', '双工器', 'None', '']
- BOM is : AEB0000408CX,双工器,SAW Duplexer,LTE B7,2535 MHz/2655 MHz,1.8×1.4×0.57 mm,8 PINs,N/A,SD18-2535R8UUC1,KYOCERA
+2018-08-24 10:55:01,280 - main.py[line:90] - INFO: difference:
+ SCH is :['974', 'MARK6101', 'fiducial', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
 
-WARNING:root:wrong:
- SCH is :['869', 'FL4201', 'AED0000085CX', '', '低通滤波器,Low pass filter,N/A,698-960 MHz,1.6×0.8×0.7 mm,6 PINs,N/A', '低通滤波器', 'None', '']
- BOM is : AED0000142CX,低通滤波器,Low Pass Filter,Multilayer,698-960 MHz,1.6×0.8×0.7 mm,6 PINs,N/A,RFLPF1608060Y18Q1C,WALSIN
+2018-08-24 10:55:01,281 - main.py[line:90] - INFO: difference:
+ SCH is :['975', 'MARK6102', 'fiducial', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
 
-WARNING:root:wrong:
- SCH is :['870', 'FL4208', 'AED0000127CX', '', '分频器,Diplexer,Multilayer,699-960 MHz/1710-2690 MHz,2.5×2×1.0 mm,8 PINs,N/A', '分频器', 'None', '']
- BOM is : AED0000279CX,Diplexer,Multilayer,698-960 MHz/1710-2690 MHz,2.5×2×1 mm,8 PINs,DPX252690DT-5031A1,TDK
+2018-08-24 10:55:01,283 - main.py[line:90] - INFO: difference:
+ SCH is :['976', 'MARK6103', 'fiducial', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
 
-WARNING:root:wrong:
- SCH is :['871', 'FL4405', 'AED0000127CX', '', '分频器,Diplexer,Multilayer,699-960 MHz/1710-2690 MHz,2.5×2×1.0 mm,8 PINs,N/A', '分频器', 'None', '']
- BOM is : AED0000279CX,Diplexer,Multilayer,698-960 MHz/1710-2690 MHz,2.5×2×1 mm,8 PINs,DPX252690DT-5031A1,TDK
+2018-08-24 10:55:01,284 - main.py[line:90] - INFO: difference:
+ SCH is :['977', 'MARK6104', 'fiducial', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
 
-WARNING:root:wrong:
- SCH is :['872', 'FL4203', 'AED0000129CX', '', '巴伦,Balun,Multilayer,673-2700 MHz,1.6×0.8×0.6 mm,6 PINs,N/A', '巴伦', 'None', '']
- BOM is : AED0000201CX,巴伦,BALUN,LTCC Multi Layer Chip Balun,673 ~ 2700 MHz,1.6 X 0.8X 0.6 mm,6 PINs,N/A,RFBLN1608070F48Q1C,WALSIN
+2018-08-24 10:55:01,285 - main.py[line:90] - INFO: difference:
+ SCH is :['978', 'SH6110', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : BKC1M30005CX,PMU shielding,WIFI12,0.20mm tinplate,0.20 mm,22.35×17.15×1.45 mm,Without Tape,LAIMU 
 
-WARNING:root:wrong:
- SCH is :['928', 'U4101', 'AMR0000065CX', '', '无线收发芯片,Transceiver Chipset,106B WLPSP,3.83×3.83×0.55 mm,0.35 mm', '无线收发芯片', 'None', '']
- BOM is : AMR0000089CX,无线收发芯片,Transceiver Chipset,106B WLPSP,3.83×3.83×0.55 mm,0.35 mm,N/A,WTR-3925-2-106BWLPSP-HR-03-1,QUALCOMM
+2018-08-24 10:55:01,287 - main.py[line:90] - INFO: difference:
+ SCH is :['979', 'T3111', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
 
-WARNING:root:wrong:
- SCH is :['929', 'U4102', 'AMR0000069CX', '', '无线收发芯片,Transceiver Chipset,60 WLNSP,3.22×3.22×0.57 mm,0.4 mm', '无线收发芯片', 'None', '']
- BOM is : AMR0000084CX,无线收发芯片,Transceiver Chipset,60 WLNSP,3.22×3.22×0.57 mm,0.4 mm,N/A,WTR-4905-1-60WLNSP-TR-01-1,QUALCOMM
+2018-08-24 10:55:01,288 - main.py[line:90] - INFO: difference:
+ SCH is :['980', 'TP6107', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
 
-WARNING:root:wrong:
- SCH is :['932', 'U4306', 'AMY0000685CX', '', '功率放大芯片,PA Power Management IC,1.7×1.57×0.55 mm,15B WLNSP,N/A', '功率放大芯片', 'None', '']
+2018-08-24 10:55:01,289 - main.py[line:90] - INFO: difference:
+ SCH is :['981', 'TP6108', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,290 - main.py[line:90] - INFO: difference:
+ SCH is :['982', 'TP6109', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,292 - main.py[line:90] - INFO: difference:
+ SCH is :['983', 'TP6110', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,293 - main.py[line:90] - INFO: difference:
+ SCH is :['984', 'TP6111', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,294 - main.py[line:90] - INFO: difference:
+ SCH is :['985', 'TP6112', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,296 - main.py[line:90] - INFO: difference:
+ SCH is :['986', 'TP6113', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,297 - main.py[line:90] - INFO: difference:
+ SCH is :['987', 'TP6122', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,298 - main.py[line:90] - INFO: difference:
+ SCH is :['988', 'TP6123', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,300 - main.py[line:90] - INFO: difference:
+ SCH is :['989', 'TP6125', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,301 - main.py[line:90] - INFO: difference:
+ SCH is :['990', 'TP6126', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,302 - main.py[line:90] - INFO: difference:
+ SCH is :['991', 'TP6127', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,303 - main.py[line:90] - INFO: difference:
+ SCH is :['992', 'TP6128', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,305 - main.py[line:90] - INFO: difference:
+ SCH is :['993', 'TP6129', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,306 - main.py[line:90] - INFO: difference:
+ SCH is :['994', 'TP6130', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,307 - main.py[line:90] - INFO: difference:
+ SCH is :['995', 'TP6132', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,308 - main.py[line:90] - INFO: difference:
+ SCH is :['996', 'TP6133', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,310 - main.py[line:90] - INFO: difference:
+ SCH is :['997', 'TP6134', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,311 - main.py[line:90] - INFO: difference:
+ SCH is :['998', 'TP6102', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,313 - main.py[line:90] - INFO: difference:
+ SCH is :['999', 'TP6101', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,314 - main.py[line:90] - INFO: difference:
+ SCH is :['1000', 'TP6100', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,315 - main.py[line:90] - INFO: difference:
+ SCH is :['1001', 'ANT4502', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,317 - main.py[line:90] - INFO: difference:
+ SCH is :['1002', 'TP4501', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,318 - main.py[line:90] - INFO: difference:
+ SCH is :['1003', 'TP3201', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,319 - main.py[line:90] - INFO: difference:
+ SCH is :['1004', 'TP3114', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,320 - main.py[line:90] - INFO: difference:
+ SCH is :['1005', 'TP3113', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,321 - main.py[line:90] - INFO: difference:
+ SCH is :['1006', 'TP3112', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,324 - main.py[line:90] - INFO: difference:
+ SCH is :['1007', 'TP3101', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,325 - main.py[line:90] - INFO: difference:
+ SCH is :['1008', 'ANT4503', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,327 - main.py[line:90] - INFO: difference:
+ SCH is :['1009', 'ANT4501', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,328 - main.py[line:90] - INFO: difference:
+ SCH is :['1010', 'SH6104', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : BKC1M30002CX,CHARGE SHIELDING,WIFI12,Tinplate,0.2 mm,23.25X18.2X1.45 mm,Without Tape,LAIMU
+
+2018-08-24 10:55:01,329 - main.py[line:90] - INFO: difference:
+ SCH is :['1011', 'SH6105', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : BKC1M30003CX,WTR4905 SHIELDING,WIFI12,Tinplate,0.2 mm,18.65X16.4X1.45mm,Without Tape,LAIMU
+
+2018-08-24 10:55:01,331 - main.py[line:90] - INFO: difference:
+ SCH is :['1012', 'TP6103', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,332 - main.py[line:90] - INFO: difference:
+ SCH is :['1013', 'SH6106', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : BKA1M30000CX,RF_PA Shielding,WIFI12,Tinplate,0.15 mm,16.6x13.25x1.45 mm,Without Tape,LAIMU
+
+2018-08-24 10:55:01,333 - main.py[line:90] - INFO: difference:
+ SCH is :['1014', 'SH6107', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : BKB1M30000CX,BB_power Shielding,WIFI12,Tinplate,0.2 mm,22.5x11.2x1.45 mm,Without Tape,LAIMU
+
+2018-08-24 10:55:01,335 - main.py[line:90] - INFO: difference:
+ SCH is :['1015', 'TP6104', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,336 - main.py[line:90] - INFO: difference:
+ SCH is :['1016', 'TP6106', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,337 - main.py[line:90] - INFO: difference:
+ SCH is :['1017', 'SH6103', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : BKC1M30001CX,WTR3925 SHIELDING,WIFI12,Tinplate,0.2 mm,39.35x15.5x1.45 mm,Without Tape,LAIMU
+
+2018-08-24 10:55:01,339 - main.py[line:90] - INFO: difference:
+ SCH is :['1018', 'SH6108', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : BKC1M30000CX,WIFI POWER SHIELDING,WIFI12,Tinplate,0.2 mm,22.5x10.4x1.45 mm,Without Tape,LAIMU
+
+2018-08-24 10:55:01,340 - main.py[line:90] - INFO: difference:
+ SCH is :['1019', 'T3110', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,342 - main.py[line:90] - INFO: difference:
+ SCH is :['1020', 'SH6101', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : BKC1M30004CX,WIFI Shielding,WIFI12,Tinplate,0.2 mm,27.85x10.6x1.45mm,Without Tape,LAIMU
+
+2018-08-24 10:55:01,343 - main.py[line:90] - INFO: difference:
+ SCH is :['1021', 'SH6102', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : BKB1M30001CX,BB Shielding,WIFI12,Tinplate,0.2 mm,50.85x28.1x1.45mm,Without Tape,LAIMU 
+
+2018-08-24 10:55:01,344 - main.py[line:90] - INFO: difference:
+ SCH is :['1022', 'SH6109', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
+ BOM is : ,
+
+2018-08-24 10:55:01,346 - main.py[line:90] - INFO: difference:
+ SCH is :['1023', 'TP6105', 'SIT001_96_PT', '', '未在PLM上找到', '未在PLM上找到', '未在PLM上找到', '']
  BOM is : ,
 

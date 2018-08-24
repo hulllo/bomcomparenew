@@ -1,6 +1,4 @@
-import logging
-logging.basicConfig(level = logging.ERROR)
-logging.info('a')
-logging.warn('df')
-logging.error('df')
-logging.debug('df')
+from PIL import Image
+filename = r'bomicon.png'
+img = Image.open(filename)
+img.save('logo.ico')

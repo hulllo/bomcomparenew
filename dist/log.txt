@@ -1,0 +1,2 @@
+2018-08-24 10:20:18,776 - readconfig.py[line:28] - INFO: 读取配置文件成功
+2018-08-24 10:20:18,777 - readconfig.py[line:29] - DEBUG: 读取的配置为：{'search_from_PLM': '1', 'save_to_db': '1', 'reflist': ['all']}
